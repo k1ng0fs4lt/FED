@@ -58,9 +58,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  1.Het aanzetten van de Narrator op Windows is nog zeer ingewikkeld om te gebruiken, vooral omdat wij gewend zijn om het niet te gebruiken. 
+  1.Het aanzetten van de Narrator op Windows met specifieke is nog zeer ingewikkeld om te gebruiken, vooral omdat wij gewend zijn om het niet te gebruiken. 
 
-  2.Het is verwarrend om de Narrator te bedienen want het kan alleen het scherm per heading lezen of per link lezen, mijn website is een webshop die veel plaatjes bevatten en daar zijn geen alternatieve tekst in verwerkt.
+  2.Het is verwarrend om de Narrator te bedienen want het kan alleen het scherm per heading lezen of per link lezen maar niet voor paragrafen.
+
+  3.Voor het lezen van de headings is het geen probleem, alleen kan de screenreader geen parragrafen (in dit geval de beschrijving van de kopjes) voorlezen.
+
+  4.Voor het lezen van productafbeeldingen werkt het perfect, de afbeeldingen zijn voorzien van de volledige naam van het product, alleen staat het er wel 2 keer in verwerkt en leest de screenreader het 2 keer voor.
+
+  5.Voor het lezen van andere producten worden beoordelingen van een product niet volledig en duidelijk voorgelezen door de screenreader, alleen de aantal reviews.
 
 </details>
 
