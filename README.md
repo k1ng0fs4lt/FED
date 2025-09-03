@@ -68,6 +68,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   5.Voor het lezen van andere producten worden beoordelingen van een product niet volledig en duidelijk voorgelezen door de screenreader, alleen de aantal reviews.
 
+  6.Bij het laden van de pagina wordt de omschrijving van de webshop voorgelezen. 
+
+  7.Bij het laden van een productpagina wordt de omschrijving direct voorgelezen.
+
+  8. Bij pop-ups worden de headers direct ook voorgelezen.
+
+  9. Bij de navigatie kan je met de screenreader zelfs elke dropdown item nagaan.
+
+  10. Bij de iconen alhoewel wordt de winkelwagen niet correct voorgelezen, alleen "o".
+
+  11. Het plaatje van het product is wel te lezen door de screen-reader als een klikbare link maar de pijltjes om door de verschillende afbeeldingen heen te navigeren worden niet opgepikt.
+
 </details>
 
 
