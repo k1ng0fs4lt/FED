@@ -58,8 +58,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  1.Het aanzetten van de Narrator op Windows met specifieke is nog zeer ingewikkeld om te gebruiken, vooral omdat wij gewend zijn om het niet te gebruiken. 
-
+  1.Het aanzetten van de Narrator op Windows met specifieke toetscombinaties is nog zeer ingewikkeld om te gebruiken, vooral omdat wij gewend zijn om het niet te gebruiken. 
+  
   2.Het is verwarrend om de Narrator te bedienen want het kan alleen het scherm per heading lezen of per link lezen maar niet voor paragrafen.
 
   3.Voor het lezen van de headings is het geen probleem, alleen kan de screenreader geen parragrafen (in dit geval de beschrijving van de kopjes) voorlezen.
@@ -68,18 +68,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   5.Voor het lezen van andere producten worden beoordelingen van een product niet volledig en duidelijk voorgelezen door de screenreader, alleen de aantal reviews.
 
-  6.Bij het laden van de pagina wordt de omschrijving van de webshop voorgelezen. 
+  6.Bij het laden van de pagina wordt de omschrijving van de webshop voorgelezen.
+  <img src="readme-images/sc2.jpg" alt="hier wordt de algemene omschrijving van de webshop voorgelezen">
 
   7.Bij het laden van een productpagina wordt de omschrijving direct voorgelezen.
 
   8. Bij pop-ups worden de headers direct ook voorgelezen.
-
+  <img src="readme-images/sc4.jpg" alt="hier wordt de algemene omschrijving van de webshop voorgelezen">
+  
   9. Bij de navigatie kan je met de screenreader zelfs elke dropdown item nagaan.
+  <img src="readme-images/sc5.jpg" alt="hier wordt de algemene omschrijving van de webshop voorgelezen">
 
   10. Bij de iconen alhoewel wordt de winkelwagen niet correct voorgelezen, alleen "o".
 
   11. Het plaatje van het product is wel te lezen door de screen-reader als een klikbare link maar de pijltjes om door de verschillende afbeeldingen heen te navigeren worden niet opgepikt.
-
+  <img src="readme-images/sc6.jpg" alt="hier wordt de algemene omschrijving van de webshop voorgelezen">
 </details>
 
 
