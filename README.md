@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.fabricoftheuniverse.com/en-nl 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/pagina1.png" width="375px" alt="Dit is de homepagina van de website">
+  Homepagina 
+  <img src="readme-images/pagina1.jpg" width="375px" alt="Dit is de home pagina van de website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/pagina2.png" width="375px" alt="Dit is de Over ons pagina van de website">
+  Product pagina 
+  <img src="readme-images/pagina2.jpg" width="375px" alt="Dit is de product pagina van de website">
  
 </details>
 
@@ -57,6 +57,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+  1.Het aanzetten van de Narrator op Windows is nog zeer ingewikkeld om te gebruiken, vooral omdat wij gewend zijn om het niet te gebruiken. 
+
+  2.Het is verwarrend om de Narrator te bedienen want het kan alleen het scherm per heading lezen of per link lezen, mijn website is een webshop die veel plaatjes bevatten en daar zijn geen alternatieve tekst in verwerkt.
 
 </details>
 
