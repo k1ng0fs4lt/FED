@@ -1,4 +1,4 @@
-# Procesverslag
+<img width="1918" height="974" alt="image" src="https://github.com/user-attachments/assets/7d2d72ec-8e1d-45f6-a76f-e5e7e7cf9bef" /># Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -69,20 +69,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   5.Voor het lezen van andere producten worden beoordelingen van een product niet volledig en duidelijk voorgelezen door de screenreader, alleen de aantal reviews.
 
   6.Bij het laden van de pagina wordt de omschrijving van de webshop voorgelezen.
+  
   <img src="readme-images/sc2.jpg" alt="hier wordt de algemene omschrijving van de webshop voorgelezen">
 
   7.Bij het laden van een productpagina wordt de omschrijving direct voorgelezen.
 
   8. Bij pop-ups worden de headers direct ook voorgelezen.
-  <img src="readme-images/sc4.jpg" alt="hier wordt de algemene omschrijving van de webshop voorgelezen">
+     
+  <img src="readme-images/sc4.jpg" alt="hier wordt de heading van de popup voorgelezen">
   
   9. Bij de navigatie kan je met de screenreader zelfs elke dropdown item nagaan.
-  <img src="readme-images/sc5.jpg" alt="hier wordt de algemene omschrijving van de webshop voorgelezen">
+      
+  <img src="readme-images/sc5.jpg" alt="hier wordt de dropdown menu item voorgelezen">
 
   10. Bij de iconen alhoewel wordt de winkelwagen niet correct voorgelezen, alleen "o".
 
-  11. Het plaatje van het product is wel te lezen door de screen-reader als een klikbare link maar de pijltjes om door de verschillende afbeeldingen heen te navigeren worden niet opgepikt.
-  <img src="readme-images/sc6.jpg" alt="hier wordt de algemene omschrijving van de webshop voorgelezen">
+  11. Het plaatje van het product is wel te lezen door de screen-reader als een klikbare link maar de pijltjes om door de verschillende afbeeldingen heen te navigeren worden niet opgepikt als link.
+      
+  <img src="readme-images/sc6.jpg" alt="hier wordt de afbeelding van het product voorgelezen">
+
+  12. Om het uit te proberen, heb ik met "j" de knoppen genavigeert, hier kan ik wel "soort van" bij de andere plaatjes komen. Ik ben wel tegen het probleem aangelopen dat mijn narrator vast staat bij de "add to wishlist" icoon. Als ik verder navigeer naar de volgende knop wordt er steeds op de "add to wishlist" knop geklikt en de plaatje verschuift steeds halfverwege door.
+  <img src="readme-images/sc7.jpg" alt="hier wordt de add to wishlist knop voorgelezen">
+  
 </details>
 
 
