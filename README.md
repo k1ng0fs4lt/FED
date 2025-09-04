@@ -101,14 +101,11 @@ De pagina's worden met een breedte van 390px nagemaakt.
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### Home pagina: 
+  <img src="readme-images/breakdownpagina1.png" width="375px" alt="breakdown van de home pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### Product pagina): 
+  <img src="readme-images/breakdownpagina2.png" width="375px" alt="breakdown van de product pagina">
 
 </details>
 
