@@ -102,10 +102,10 @@ De pagina's worden met een breedte van 390px nagemaakt.
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### Home pagina: 
-  <img src="readme-images/breakdownpagina1.png" width="375px" alt="breakdown van de home pagina">
+  <img src="readme-images/breakdownpagina1.png" alt="breakdown van de home pagina">
 
   ### Product pagina): 
-  <img src="readme-images/breakdownpagina2.png" width="375px" alt="breakdown van de product pagina">
+  <img src="readme-images/breakdownpagina2.png" alt="breakdown van de product pagina">
 
 </details>
 
