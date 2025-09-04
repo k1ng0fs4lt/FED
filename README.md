@@ -45,7 +45,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen) Product pagina :
 
   <img src="readme-images/productpaginafullscreenshot.png" width="375px" alt="Dit is de product pagina van de website">
- 
+
+De pagina's worden met een breedte van 390px nagemaakt.
 </details>
 
 
