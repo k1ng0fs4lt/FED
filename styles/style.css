@@ -17,15 +17,101 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+  --font-family: 'Slate', sans-serif;
 }
 
-
+@import url('https://fonts.cdnfonts.com/css/slate');
 
 
 
 /****************/
 /* JOUW STYLING */
 /****************/
+@media (prefers-color-scheme: dark) {
+    body {
+    	background-color: #121212;
+        color: white;
+      }
+}
+
+body{
+  font-family: Slate;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+h1{
+  display: none;
+}
+
+nav ul{
+  list-style: none;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav ul li{
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  margin: 1em;
+}
+
+nav ul li a{
+  text-decoration: none;
+  flex-grow: 1;
+}
+
+  section.banner {
+    display: grid;
+    position: relative; /* Make section relative so we can position children absolutely */
+    justify-items: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw;
+    height: auto; /* Adjust based on your desired height */
+    margin: 0;
+  }
+
+  section.banner img {
+    grid-row: 1 / -1; /* Span across all rows */
+    grid-column: 1 / -1; /* Span across all columns */
+    z-index: -1; /* Ensure the image stays in the background */
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+
+
+  section.banner h2, section.banner p {
+    position: absolute;
+    text-align: center; /* Center text horizontally */
+    color: white; /* White text on top of the image */
+    z-index: 1; /* Ensure text is above the image */
+    width: 100%;
+  }
+
+  section.banner h2 {
+    font-size: 2.5em; /* Adjust font size */
+    margin-bottom: 10rem; /* Space between <h2> and <p> */
+  }
+
+  section.banner p {
+    font-size: 1.2em; /* Adjust font size */
+    margin-top: 0; /* Remove any default top margin */
+    margin-top: 2em; /* Add space between <h2> and <p> */
+  }
+
 
 /* jouw code */
 
