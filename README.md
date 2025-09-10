@@ -120,15 +120,20 @@ De pagina's worden met een breedte van 390px nagemaakt.
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik zat vooral vast met de navigatie en de eerste sectie. Ik kon de navigatie maar niet tevoorschijn laten komen zoals het in de opdracht beschreven was. verder wilde ik aan niets anders beginnen sinds de navigatie opzich zelf een belangrijke en element is die al best   moeilijk is om na te maken. 
+  Naast wat hulp vragen aan de studenten assistent en natuurlijk chatGPT had ik het eindelijk kunnen oplossen en het aan de praat te krijgen. Ik was toen direct verder gegaan met de volgende secties van mijn website. Hier had ik veel minder moeite mee sinds het in de     meeste gevallen secties zijn die meerdere keren worden gebruikt, dus de code hoefde ik maar 1 keer te schrijven met wat aanpassingen hier en daar. Ik ben nu nog bezig met de footer, meer op de nadruk van het importeren van alle icoontjes van de betaalmethodes. Verder   is mijn website natuurlijk niet exact hetzelfde, het komt heel erg overeen met wat missende elementen hier en daar, maar dat hou ik voor later als ik tijd over heb.
+
+  Dingen waarover ik graag wil weten zijn: Het maken van een carousel, een pop-up balk onder de navigatie die je kan wegklikken, een pop-up melding die tevoorschijn komt als ik op de webpagina ben, een knop aan de zijkant van het scherm die altijd meescrollt zonder       elementen te verschuiven, en het plaatsen van svg iconen.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Amber          | ---                | ---          | ---              |
+  |  
+  | Hamburgermenu  | en ik dit          | en dan ik dat|
+  | Carousel       | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
