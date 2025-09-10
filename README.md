@@ -130,11 +130,11 @@ De pagina's worden met een breedte van 390px nagemaakt.
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
-  | Amber          | ---                | ---          | ---              |
+  | Amber          | Vincent            | Rafaella     | Rumeysa          |
   |  
-  | Hamburgermenu  | en ik dit          | en dan ik dat|
-  | Carousel       | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hamburgermenu  | NVT                | NVT          | NVT
+  | Carousel       |                    |              |                  |
+  | ...            |                    |              |                  |
 
 
   ### Verslag van meeting
