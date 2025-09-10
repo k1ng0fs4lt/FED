@@ -15,9 +15,9 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-  --font-family: 'Slate', sans-serif;
+	--text-color:#111;
+	--background-color:white;
+  --font: 'Slate', sans-serif;
 }
 
 @import url('https://fonts.cdnfonts.com/css/slate');
@@ -34,43 +34,158 @@
       }
 }
 
-body{
-  font-family: Slate;
+body {
+  font-family: var(--font);
   margin: 0;
   padding: 0;
-  background-color: white;
-  color: black;
+  background-color: var(--background-color);
+  color: var(--text-color);
   width: 100vw;
   overflow-x: hidden;
 }
 
-h1{
-  display: none;
-}
-
-nav ul{
-  list-style: none;
+header {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100vw;
+  height: auto;
+  padding: 1rem;
   background-color: white;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  z-index: 1000;
 }
 
-nav ul li{
+header > button {
+  order: -1;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateX(-100%);  /* Hide by default */
+  transition: transform 0.3s ease-in-out;
+  background: white;
+  z-index: 500; /* Ensure the nav is above content */
+  padding-top: 0;
+}
+
+nav.toonMenu {
+  transform: translateX(0); /* Show menu */
+}
+
+nav ul {
+  list-style: none;
   display: flex;
-  flex-grow: 1;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
   align-items: center;
-  height: 2em;
-  margin: 1em;
+  justify-content: space-between;
+  height: 100%;
+  background-color: white;
 }
 
-nav ul li a{
-  text-decoration: none;
+nav ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   flex-grow: 1;
+  border: 2px solid #d9d9d9;
 }
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0;
+
+}
+
+/* Media query for large screens */
+@media (min-width: 38em) {
+  header > button.open-menu {
+    display: none; /* Hide open button on large screens */
+  }
+  
+  nav {
+    position: static;
+    transform: translateX(0);  /* Ensure menu is visible on large screens */
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+  }
+  
+  nav button.close-menu {
+    display: none; /* Hide close button on large screens */
+  }
+}
+@media only screen and (max-width: 798px){
+  img#navLogo{
+    max-width: 150px;
+        max-height: 30px;
+        object-fit: contain;
+  }
+}
+
+img#navLogo{
+    width: 205px;
+    max-width: 100%;
+    max-height: 200px;
+    display: block;
+}
+
+h1{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+h2{
+  font-size: 2.5em;
+  margin: 0 0 15px;
+  font-style: normal;
+  line-height: 1.8em;
+  max-width: 100%;
+}
+
+h3{
+  font-size: 2.5em;
+    margin: 0 0 15px;
+    font-style: normal;
+    line-height: 1.8em;
+    max-width: 100%;
+}
+
+p{
+  font-size: 19.2px;
+    margin: 0 0 15px;
+    font-style: normal;
+    line-height: 1.8em;
+    max-width: 100%;
+}
+
+
+
+main{
+  padding-top: 4em;
+}
+
 
   section.banner {
     display: grid;
@@ -79,7 +194,7 @@ nav ul li a{
     align-items: center; /* Center vertically */
     width: 100vw;
     height: auto; /* Adjust based on your desired height */
-    margin: 0;
+    margin-bottom: 2.5em;
   }
 
   section.banner img {
@@ -89,7 +204,6 @@ nav ul li a{
     height: auto;
     width: 100%;
     object-fit: cover;
-    
   }
 
 
@@ -99,19 +213,343 @@ nav ul li a{
     color: white; /* White text on top of the image */
     z-index: 1; /* Ensure text is above the image */
     width: 100%;
+    margin: auto;
   }
+
 
   section.banner h2 {
     font-size: 2.5em; /* Adjust font size */
-    margin-bottom: 10rem; /* Space between <h2> and <p> */
+    margin-bottom: 1em; /* Space between <h2> and <p> */
   }
 
-  section.banner p {
-    font-size: 1.2em; /* Adjust font size */
-    margin-top: 0; /* Remove any default top margin */
-    margin-top: 2em; /* Add space between <h2> and <p> */
+  section.banner p{
+    margin-top: 2.5em;
   }
 
 
+
+  section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  section:nth-of-type(2) > img{
+    max-width: 205px;
+    order: -1;
+  }
+
+
+
+/***********/
+/* Promotions tab */
+/***********/  
+  #promotions {
+  display: grid; /* Enable grid layout */
+  grid-template-columns: 1fr; /* Default to one column */
+  gap: 20px; /* Add some spacing between the articles */
+  padding: 20px;
+  }
+
+  /* For larger screens (e.g., 768px and above), show two columns */
+  @media (min-width: 768px) {
+    #promotions {
+      grid-template-columns: 1fr 1fr; /* Two columns */
+    }
+  }
+
+/* Styling for the individual articles */
+#promotions article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#promotions article img {
+  width: 100%; /* Make the images responsive */
+  max-width: 500px; /* Max width of the image (adjust as necessary) */
+  height: auto;
+  order: -1;
+}
+
+#promotions h3 {
+  margin: 10px 0;
+}
+
+#promotions p {
+  margin: 0 0 10px;
+}
 /* jouw code */
 
+
+
+
+
+
+
+
+
+
+
+
+/***********/
+/* Products tab */
+/***********/  
+
+.products {
+  padding: 20px;
+}
+
+.products h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.products ul {
+  display: grid; /* Enable grid layout */
+  grid-template-columns: 1fr 1fr; /* Default: 2 columns on small screens */
+  gap: 20px; /* Space between the grid items */
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.products li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products article {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.products article img {
+  width: 100%; /* Make the images responsive */
+  max-width: 200px; /* Max width of the image (adjust as necessary) */
+  height: auto;
+  order: -1;
+}
+
+.products article h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.products article p {
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+/* For medium screens (e.g., tablets, large phones) - 2 columns */
+@media (min-width: 600px) {
+  .products ul {
+    grid-template-columns: 1fr 1fr; /* 2 columns for medium screens */
+  }
+}
+
+/* For large screens (e.g., desktops) - 4 columns */
+@media (min-width: 1024px) {
+  .products ul {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for larger screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********/
+/* click for latest tabs */
+/***********/
+section:nth-of-type(5){
+  display: flex;
+  justify-content: center;
+}
+section:nth-of-type(5) > a {
+  font-family: var(--font);
+  font-weight: bold;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  padding: 20px 20px;
+  max-width: 10em;
+  background-color: #8F1500; 
+  color: white; 
+  text-decoration: none; 
+  text-align: center; 
+}
+
+
+
+
+
+
+
+
+/***********/
+/* join discord section */
+/***********/
+section.bannerKlikbaar {
+  display: grid;
+  position: relative; /* Make section relative so we can position children absolutely */
+  justify-items: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100vw;
+}
+
+section.bannerKlikbaar h2, section.bannerKlikbaar p, section.banner a {
+    position: absolute;
+    text-align: center; /* Center text horizontally */
+    color: white; /* White text on top of the image */
+    z-index: 1; /* Ensure text is above the image */
+    width: 100%;
+  }
+
+/* Background Image */
+section.bannerKlikbaar img {
+  grid-row: 1 / -1; /* Span across all rows */
+  grid-column: 1 / -1; /* Span across all columns */
+  z-index: -1; /* Ensure the image stays in the background */
+  height: auto;
+  width: 100%;
+  object-fit: cover; /* Ensure the image covers the entire background without stretching */
+}
+
+/* Heading Styling */
+section.bannerKlikbaar h2 {
+  position: absolute;
+  text-align: center; /* Center text horizontally */
+  color: white; /* White text on top of the image */
+  z-index: 1; /* Ensure text is above the image */
+  font-size: 2.5em; /* Adjust font size */
+  margin-bottom: 5rem; /* Space between <h2> and <a> */
+}
+section.bannerKlikbaar p{
+  margin-top: 1em;
+}
+/* Link Styling */
+section.bannerKlikbaar a {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  z-index: 1; /* Ensure the link is above the image */
+  padding: 10px 20px; /* Add padding to make it look like a button */
+  background-color: #8F1500; /* Add a dark semi-transparent background */
+  text-decoration: none; /* Remove underline from the link */
+  margin-top: 5em;
+}
+
+
+
+
+
+/************/
+/* Model pictures */
+/***************/
+
+
+
+
+#modelPictures {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr; /* Default: 1 column */
+  padding: 1rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.models {
+  width: 100%; /* Make images scale within their grid column */
+  height: auto;
+}
+
+/* Medium screen: 2 columns */
+@media (min-width: 600px) {
+  #modelPictures {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large screen: 4 columns */
+@media (min-width: 1024px) {
+  #modelPictures {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+
+
+
+/*************************/
+/* Footer */
+/*************************/
+footer{
+  background-color: var(--text-color);
+  color: var(--background-color);
+  font-weight: bold;
+  padding-top: 2em;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+footer form{
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+footer  form  p{
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+footer form input{
+  height: 3.5em;
+  padding: 10px;
+}
+
+footer form button{
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  z-index: 1; /* Ensure the link is above the image */
+  padding: 10px 20px; /* Add padding to make it look like a button */
+  background-color: #8F1500; /* Add a dark semi-transparent background */
+  text-decoration: none; /* Remove underline from the link */
+  margin-top: 1em;
+}

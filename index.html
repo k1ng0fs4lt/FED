@@ -7,259 +7,215 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Homepagina</title>
 	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 	<link href="https://fonts.cdnfonts.com/css/slate" rel="stylesheet">
+	<script defer src="scripts/script.js"></script>
 </head>
 <body>
-	<header>
-		<h1>Fabric of the universe future apparrel</h1>
-		<nav>
-			<ul>
-				<li>
-					<a href="#">Home</a>
-				</li>
-				<li>
-					<a href="#">Sale</a>
-				</li>
-				<li>
-					<a href="#">Jackets</a>
-				</li>
-				<li>
-					<a href="#">Pullovers</a>
-				</li>
-				<li>
-					<a href="#">T-Shirts</a>
-				</li>
-				<li>
-					<a href="#">Bottoms</a>
-				</li>
-				<li>
-					<a href="#">Hats</a>
-				</li>
-				<li>
-					<a href="#">Accessories</a>
-				</li>
-				<li>
-					<a href="#">Archive</a>
-				</li>
-				<li>
-					<a href="#">Discord</a>
-				</li>
-				<li>
-					<a href="#">Sign in</a>
-				</li>
-				<li>
-					<a href="#">EUR €</a>
-				</li>																				
-			</ul>
-		</nav>
-		<form>
-			<input>
-			<button></button>
-		</form>
-	</header>
+<header>
+  <a href="index.html">
+    <img id="navLogo" src="images/websitenavlogo.png" alt="website logo">
+  </a>
+  
+  <!-- Open button -->
+  <button class="open-menu"><img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg" alt="Hamburgermenu" />Menu</button>
+  
+  <nav>
+    <!-- Close button inside nav -->
+    <button class="close-menu" aria-hidden="true">
+      <img src="https://assets.codepen.io/274456/ui-icon-cross.svg" alt="Close Menu" />Sluit
+    </button>
+    
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Sale</a></li>
+      <li><a href="#">Jackets</a></li>
+      <li><a href="#">Pullovers</a></li>
+      <li><a href="#">T-Shirts</a></li>
+      <li><a href="#">Bottoms</a></li>
+      <li><a href="#">Hats</a></li>
+      <li><a href="#">Accessories</a></li>
+      <li><a href="#">Archive</a></li>
+      <li><a href="#">Discord</a></li>
+      <li><a href="#">Sign in</a></li>
+      <li><a href="#">EUR €</a></li>                                                                              
+    </ul>
+  </nav>
+</header>
 	<main>
-		<script defer src="scripts/script.js"></script>
+		<h1>Fabric of the universe future apparrel</h1>
 		<section class="banner">
-			<img src="images/topbanner.png" alt="top banner">
 			<h2>FUTURE CULTURE</h2>
+			<img src="images/topbanner.png" alt="website topbanner">
 			<p>Be part of the movement</p>
 		</section>
 		<section>
-			<img>
 			<h3>Unleash your character</h3>
+			<img src="images/websitelogo.png" alt="website logo">
 			<p>We believe that wearing clothing that fits your inner expression empowers you.</p>
 		</section>
-		<section>
+		<section id="promotions">
 			<article>
-				<img>
 				<h3>Free Hand Fan</h3>
 				<p>When you spend $150+ in merchandise value (after discounts before taxes and shipping) OR</p>
+				<img src="images/freehandfan.png" alt="free hand fan"/>
 			</article>
 			<article>
 				<img>
 				<h3>Free Black Gold Canvas Tote</h3>
 				<p>When you spend $250+ in merchandise value (after discounts before taxes and shipping)</p>
+				<img src="images/freecanvastote.png" alt="free canvas tote"/>
 			</article>
 		</section>
-		<section>
+		<section class="products">
 			<h2>LATEST DROPS / RE:STOCK</h2>
 			<ul>
 				<li>
-					<a>
+					<a href="#">
 						<article>
-							<img>
 							<h3>SLR_Type 0 1 1 A Black Sleeveless Hoodie</h3>
 							<p>$59,50</p>
+							<img src="images/sleevelesshoodie.png" alt="black sleeveless hoodie">
 						</article>
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#">
 						<article>
-							<img>
 							<h3>KC-Type 01A Black Gold King's Cap</h3>
 							<p>$32,50</p>
+							<img src="images/goldkingscap.png" alt="black gold kings cap">
 						</article>
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#">
 						<article>
-							<img>
 							<h3>CYM-03 Black Purple Cyber Mask</h3>
 							<p>Sold out</p>
+							<img src="images/purplecybermask.png" alt="purple cyber mask">
 						</article>
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#">
 						<article>
-							<img>
 							<h3>RG-1000 Panda Raglan hoodie</h3>
-							<ol>
-								<li>
-									<svg></svg>
-								</li>
-								<li>
-									<svg></svg>
-								</li>
-								<li>
-									<svg></svg>
-								</li>
-								<li>
-									<svg></svg>
-								</li>
-								<li>
-									<svg></svg>
-								</li>
-							</ol>
 							<p>$84,50</p>
+							<img src="images/raglanhoodie.png" alt="panda raglan hoodie">
 						</article>
 					</a>
 				</li>
 			</ul>
 		</section>
 		<section>
-			<a>
-				<h3>Click for all the latest</h3>
-			</a>
-		</section>
-		<section>
-			<img>
+			<a href="#">Click for all the latest</a>
+		</section><br><br>
+		<section class="bannerKlikbaar">	
 			<h2>#FUTURECULTURE</h2>
-			<a>
-				<h3>Join our Discord community</h3>
-			</a>
+			<a href="#">Join our Discord community</a>
+			<img src="images/joindiscord.png" alt="join our discord photo">
 		</section>
-		<section>
+		<section class="products">
 			<ul>
 				<li>
-					<a>
+					<a href="#">
 						<article>
-							<img>
 							<h3>Pullovers</h3>
 							<p>33 items</p>
+							<img src="images/pullovers.png" alt="pullovers">
 						</article>
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#">
 						<article>
-							<img>
 							<h3>Collection title</h3>
 							<p>3 items</p>
+							<img src="images/collectiontitle.png" alt="collection titles">
 						</article>
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#">
 						<article>
-							<img>
 							<h3>Jackets</h3>
 							<p>32 items</p>
+							<img src="images/jackets.png" alt="Jackets">
 						</article>
 					</a>
 				</li>
 				<li>
-					<a>
+					<a href="#">
 						<article>
-							<img>
 							<h3>Hats</h3>
 							<p>13 items</p>
+							<img src="images/hats.png" alt="hats">
 						</article>
 					</a>
 				</li>
 			</ul>
 		</section>
-		<section>
-			<img>
-			<h2>[you only live once]</h2>
+		<section class="banner">
+			<h2>[You only live once]</h2>
+			<img src="images/youonlyliveonce.png" alt="You only live once">
 		</section>
-		<section>
-			<img>
-			<img>
-			<img>
-			<img>
+		<section id="modelPictures">
+			<img class="models" src="images/model1.png" alt="model1">
+			<img class="models" src="images/model2.png" alt="model2">
+			<img class="models" src="images/model3.png" alt="model3">
+			<img class="models" src="images/model4.png" alt="model4">
 		</section>
-		<section>
-			<img>
+		<section class="bannerKlikbaar">
 			<h2>ABS-TYPE 501 BODYSUIT</h2>
 			<p>Turn heads with your presence</p>
-			<a>
-				<p>$54,50</p>
-			</a>
+			<a href="#">$54,50</a>
+			<img src="images/turnheads.png" alt="Bodysuit">
 		</section>
-		<section>
-			<img>
+		<section class="bannerKlikbaar">
 			<h2>MEDIC SHORT BOMBER</h2>
 			<p>For the healer in you</p>
-			<a>
-				<p>$164,50</p>
-			</a>
+			<a href="#">$164,50</a>
+			<img src="images/forthehealer.png" alt="Medic Short Bomber">
 		</section>
-		<section>
+		<section class="products">
 			<h2>Essential socks</h2>
 			<ul>
 				<li>
-					<article>
-						<a>
-							<img>
-							<h3>SX-005 Black Red crew Socks</h3>
-							<svg></svg><p>(22)</p>
-							<p>$9,50</p>
-						</a>
-					</article>
+					<a href="#">
+						<article>
+								<h3>SX-005 Black Red crew Socks</h3>
+								<p>$9,50</p>
+								<img src="images/blackredsocks.png" alt="Black red crew socks">
+						</article>
+					</a>
 				</li>
 				<li>
-					<article>
-						<a>
-							<img>
+					<a href="#">
+						<article>
 							<h3>FBRC Black Crew Socks</h3>
-							<svg></svg><p>(2)</p>
 							<p>$9,50</p>
-						</a>
-					</article>
+							<img src="images/blacksocks.png" alt="Black crew socks">
+						</article>
+					</a>
 				</li>
 				<li>
-					<article>
-						<a>
-							<img>
+					<a href="#">
+						<article>
 							<h3>V5-SX03 White Crew Socks</h3>
-							<svg></svg><p>(22)</p>
 							<p>$9,50</p>
-						</a>
+							<img src="images/whitesocks.png" alt="White crew socks">
+						</article>
+					</a>
 					</article>	
 				</li>
 				<li>
-					<article>
-						<a>
-							<img>
+					<a href="#">
+						<article>
 							<h3>Bahamut Black Crew Socks</h3>
-							<svg></svg><p>(22)</p>
 							<p>$9,50</p>
-						</a>
-					</article>					
+							<img src="images/bahamutsocks.png" alt="Bahamut Black crew socks">
+						</article>
+					</a>					
 				</li>
 			</ul>
 		</section>
@@ -267,16 +223,14 @@
 	<footer>
 		<ul>
 			<li>
-				<a>
+				<a href="#">
 					<p>Follow</p>
 				</a>
 			</li>
 			<li>
-				<svg></svg>
-				<svg></svg>
 			</li>
 			<li>
-				<a>
+				<a href="#">
 					<p>About Us</p>
 				</a>
 			</li>
@@ -286,41 +240,42 @@
 				</a>				
 			</li>
 			<li>
-				<a>
+				<a href="#">
 					<p>Shipping</p>
 				</a>				
 			</li>
 			<li>
-				<a>
+				<a href="#">
 					<p>Returns</p>
 				</a>				
 			</li>
 			<li>
-				<a>
+				<a href="#">
 					<p>Privacy</p>
 				</a>				
 			</li>
 			<li>
-				<a>
+				<a href="#">
 					<p>Terms of Service</p>
 				</a>				
 			</li>
 			<li>
-				<a>
+				<a href="#">
 					<p>Wholesale</p>
 				</a>				
 			</li>
 		</ul>
-		<form>
+			<form>
 			<p>Sign up to get the latest on sales, new releases and more...</p>
-			<input>
-			<button></button>
+			<input type="email" placeholder="Email address">
+			<button type="submit">Sign up</button>
 		</form>
+		<container>
 		<p>© 2025 Fabric of the Universe.</p>
 		<p>Powered by Shopify</p>
 		<ul>
 			<li>
-				<img>
+				<img class="paymentMethods" src="images/icons/paymenticon1.svg">
 				<img>
 				<img>
 				<img>
@@ -340,6 +295,7 @@
 				<img>
 			</li>
 		</ul>
+		</container>
 	</footer>
 </body>
 	
