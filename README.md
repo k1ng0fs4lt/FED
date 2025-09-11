@@ -119,7 +119,7 @@ De pagina's worden met een breedte van 390px nagemaakt.
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   Ik zat vooral vast met de navigatie en de eerste sectie. Ik kon de navigatie maar niet tevoorschijn laten komen zoals het in de opdracht beschreven was. verder wilde ik aan niets anders beginnen sinds de navigatie opzich zelf een belangrijke en element is die al best   moeilijk is om na te maken. 
   Naast wat hulp vragen aan de studenten assistent en natuurlijk chatGPT had ik het eindelijk kunnen oplossen en het aan de praat te krijgen. Ik was toen direct verder gegaan met de volgende secties van mijn website. Hier had ik veel minder moeite mee sinds het in de     meeste gevallen secties zijn die meerdere keren worden gebruikt, dus de code hoefde ik maar 1 keer te schrijven met wat aanpassingen hier en daar. Ik ben nu nog bezig met de footer, meer op de nadruk van het importeren van alle icoontjes van de betaalmethodes. Verder   is mijn website natuurlijk niet exact hetzelfde, het komt heel erg overeen met wat missende elementen hier en daar, maar dat hou ik voor later als ik tijd over heb.
 
@@ -130,21 +130,20 @@ De pagina's worden met een breedte van 390px nagemaakt.
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
-  | Amber          | Vincent            | Rafaella     | Rumeysa          |
+  | Amber          | ---                | ---          | ---              |
   |  
-  | Hamburgermenu  | NVT                | NVT          | NVT
-  | Carousel       |                    |              |                  |
-  | ...            |                    |              |                  |
+  | Hamburgermenu  | en ik dit          | en dan ik dat|
+  | Carousel       | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - Punt 1: De toegankelijkheidstest is zeer uitgebreid gedaan op bepaalde punten, zoals de screenreader. echter kan het wat meer uitgebreid op andere punten van de WACG checklist.
+  - Punt 2 Verder moet ik beter kijken welke secties inderdaad articles bevatten. Articles zijn stukjes code die informatie vertelt, net als een klein stuk tekst met wat afbeeldingen. De product secties zijn dus geen articles dus dat moet aangepast worden.
+  - Punt 3: Secties beginnen altijd met een kopje (h2), bij sommige secties zijn dat niet verwerkt. Ik moet dus alle secties nu voorzien van een kopje en indien nodig het onzichtbaar maken met stijlen.
+  - Punt 4: Voor het maken van een pop-up is het gebruik van de nieuwe HTML code: Dialogue een optie. Anders met Javascript een onload functie aanmaken.
 </details>
 
 
