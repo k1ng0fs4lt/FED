@@ -91,6 +91,83 @@ De pagina's worden met een breedte van 390px nagemaakt.
 
   12. Om het uit te proberen, heb ik met "j" de knoppen genavigeert, hier kan ik wel "soort van" bij de andere plaatjes komen. Ik ben wel tegen het probleem aangelopen dat mijn narrator vast staat bij de "add to wishlist" icoon. Als ik verder navigeer naar de volgende knop wordt er steeds op de "add to wishlist" knop geklikt en de plaatje verschuift steeds halfverwege door.
   <img src="readme-images/sc7.jpg" alt="hier wordt de add to wishlist knop voorgelezen">
+
+  13. De website maakt in het algemeen wel gebruik van plain language die begrijpelijk is voor de meeste mensen. De a tags zijn ook voorzien van uniek beschreven tekst.
+
+  <img src="readme-images/sc8.jpg" alt="De kopjes en a tags zijn voorzien van plain language">
+
+  14. De website heeft in de code een lang attribuut gebruikt met de waarde "eng".
+
+  <img src="readme-images/sc9.jpg" alt="De code maakt gebruik van de language attribuut met de waarde eng">
+
+  15. De website heeft op elke pagina unieke titels verwerkt in de code.
+
+  <img src="readme-images/sc10.jpg" alt="Deze pagina heeft als unieke titel: Hoodies">
+  <img src="readme-images/sc11.jpg" alt="Deze pagina heeft als unieke titel: T-shirts">
+
+  16. De website heeft zijn viewport zoom aan staan.
+
+  <img src="readme-images/sc12.jpg" alt="de viewport zoom staat op 1 schaal">
+
+  17. Er is een focus stijl toegepast voor wanneer gebruikers willen navigeren met de keyboard. Alhoewel is de stijl niet zo heel opmerkelijk. De volgorde van focus is ook gespiegeld met de visuele layout.
+
+  <img src="readme-images/sc13.jpg" alt="De eerste navigatie tag krijgt een focus stijl met zwarte uitlijning">
+  <img src="readme-images/sc14.jpg" alt="De tweede navigatie tag wordt gehighlight met de focusstijl">
+
+  18. De website op mobiele formaat is te zien op zowel portrait en landscape view.
+
+  <img src="readme-images/sc15.jpg" alt="De website is nu te zien op portrait view op mobiel">
+  <img src="readme-images/sc16.jpg" alt="De website is nu te zien op landscape view op mobiel">
+
+  19. Horizontaal scrollen staat in het algemeen uit op mobiele formaat, alle content zit in de viewport, wel staat het aan als je op een detailpagina bent. Dit wordt alleen gebruikt om door de foto's heen te bladeren.
+  <img src="readme-images/sc17.jpg" alt="Horizontaal scrollen staat aan alleen bij de detailpagina om door de foto's heen te kunnen bladeren">
+
+  20. Er is altijd voldoende ruimte tussen interactieve elementen om te scrollen op de mobiele versie, eigenlijk kan je van elk punt scrollen. Buttons en links zijn makkelijk te activeren sinds het is meegeschaald met de viewport formaat, en ze zijn makkelijk te bereiken op zowel portrait als landscape formaat.
+      
+  <img src="readme-images/sc18.jpg" alt="De links liggen in handbereik en is groot genoeg op portrait formaat">
+  <img src="readme-images/sc19.jpg" alt="De links liggen in handbereik en is groot genoeg op landscape formaat">
+
+  21. De website maakt gebruik van h1's en h2's voor de introductie van de inhoud en gebruikt wel 1 h1 per pagina. De headings zijn volgens mij wel op een logische volgorde gebruikt alleen zijn ze zo moeilijk te vinden in de code. De h1 zit trouwens verstopt in een path tag, en bijna alle h2's hebben een class die hidden zijn.
+
+  <img src="readme-images/sc20.jpg" alt="De h1 is verstopt in een path tag">
+  <img src="readme-images/sc21.jpg" alt="De h2's hebben allemaal een class en zijn in de meeste gevallen gezet als hidden">
+
+  22. De website maakt gebruik van ul's en li's voor lijst inhoud.
+      
+  <img src="readme-images/sc22.jpg" alt="De website maakt gebruik van ul's en li's om lijst inhoud te weergeven.">
+
+  23. De images hebben allemaal een alt beschrijving, alleen zijn het referencies naar een data waarde. Decoratieve afbeeldingen zoals een icoon maken geen gebruik van alt=NULL, maar in plaats daarvan hebben ze helemaal geen waarde.
+
+  <img src="readme-images/sc23.jpg" alt="De images hebben allemaal een alt attribuut maar met de waarde van een data waarde">
+  <img src="readme-images/sc24.jpg" alt="Decoratieve images hebben geen waarde in hun alt attribuut">
+
+  24. Complexe images zoals maatgrafieken hebben geen alt waarde, ook heeft het dus geen alt tekst van wat er op de afbeelding staat.
+      
+  <img src="readme-images/sc25.jpg" alt="Complexe afbeelding zoals deze maatgrafiek heeft geen alt waarde die het beschrijft">  
+
+  25. Verder heeft deze website geen media zoals video's/audio.
+  26. De website maakt gebruik van a tags voor naviagtie links. Links zijn niet zo heel erg te herkennen als links sinds ze allemaal dezelfde kleur hebben als andere tekst. Wel zitten links natuurlijk in de naviagtie dus   dat is wel ietsjes meer gescheiden van andere elementen. Alhoewel ze de a tags hebben voorzien van :focus states, is het zeer minder opmerkelijker in de submenu's van de navigatie links vergeleken met de hoofd navigatielinks waar je wel de zwarte rand om de element heen ziet.
+      
+  <img src="readme-images/sc26.jpg" alt="a tags worden gebruikt in navigatie links">  
+  <img src="readme-images/sc27.jpg" alt="Focus states worden toegepast op de a tags, alleen zijn ze veel minder zichtbaar in de sub menu navigatie links">  
+  
+  27. De website maakt geen correct gebruik van button tags voor knoppen maar gebruiken in plaats daarvan classes in de a tags zelf met als naam button.
+      
+  <img src="readme-images/sc28.jpg" alt="Button tags worden vervangen met a classes button"> 
+
+  28. De website heeft geen alternatieve opmaak voor thema voorkeur zoals donker en licht, ook heeft het aanpassen van tekst grootte geen invloed (de weergave wordt alleen ingezoomd maar tekst wordt niet grooter op zichzelf). Wel heeft de website alternatieve opmaak voor contrast voorkeuren, maar ik denk dat het systeem zelf de weergave toepast in plaats van de website zelf.
+
+  <img src="readme-images/sc29.jpg" alt="De kleur contrast is toegepast met een hoge contrast voorkeur"> 
+
+  29. De instelling om de animatie (motion) te verminderen werkt op de website.
+  30. Contrast voor iconen zijn minimaal toegepast waarbij ze eigenlijk alleen allemaal een achtergrond kleur hebben gekregen om ze contrast te geven, er is specifieke kleur toegewezen dus op iconen om contrast aan te bieden.
+
+  <img src="readme-images/sc30.jpg" alt="Iconen hebben geen contrast styling maar alleen standaard contrast stijling gekregen van de systeem zelf"> 
+
+  31. Custom :selection pseudo elementen zijn toegepast op klikbare elementen, alleen zijn ze overschreven door iets (mijn eigen systeem?) en is de stijling niet toegepast.
+      
+  <img src="readme-images/sc31.jpg" alt="Custom :selection pseudo elementen zijn toegepast maar worden overschreven"> 
+  
   
 </details>
 
