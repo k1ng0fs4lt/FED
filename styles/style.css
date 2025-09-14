@@ -34,6 +34,54 @@
       }
 }
 
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--text-color);
+    color: var(--background-color);
+  }
+
+  nav{
+    background-color: var(--text-color);
+    color: var(--background-color);
+  }
+
+  a{
+    color: var(--background-color);
+  }
+
+}
+
+/*Light mode*/
+@media (prefers-color-scheme: light){
+  footer{
+    background-color: var(--background-color);
+  }
+
+  footer a{
+    color: var(--text-color);
+  }
+}
+
+
+/* High contrast */
+@media (prefers-contrast: more) {
+  body {
+    background-color: black;
+    color: yellow;
+  }
+
+  .bannerKlikbaar a{
+    background-color: aqua;
+  }
+
+  a {
+    color: yellow;
+  }
+
+
+}
+
 body {
   font-family: var(--font);
   margin: 0;
@@ -42,6 +90,45 @@ body {
   color: var(--text-color);
   width: 100vw;
   overflow-x: hidden;
+}
+
+h1{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+h2{
+  font-size: 2.5em;
+  margin: 0 0 15px;
+  font-style: normal;
+  line-height: 1.8em;
+  max-width: 100%;
+}
+
+h3{
+  font-size: 2.5em;
+    margin: 0 0 15px;
+    font-style: normal;
+    line-height: 1.8em;
+    max-width: 100%;
+}
+
+p{
+  font-size: 19.2px;
+    margin: 0 0 15px;
+    font-style: normal;
+    line-height: 1.8em;
+    max-width: 100%;
+}
+
+a:focus{
+  outline: 10px solid red;
+  outline-offset: 20px;
 }
 
 header {
@@ -67,7 +154,7 @@ nav {
   right: 0;
   transform: translateX(-100%);  /* Hide by default */
   transition: transform 0.3s ease-in-out;
-  background: white;
+  background-color: var(--background-color);
   z-index: 500; /* Ensure the nav is above content */
   padding-top: 0;
 }
@@ -144,9 +231,75 @@ img#navLogo{
     max-width: 100%;
     max-height: 200px;
     display: block;
+    margin-top: 0.5em;
 }
 
-h1{
+
+
+
+main{
+  padding-top: 4em;
+}
+
+
+section.banner {
+  display: grid;
+  position: relative; /* Make section relative so we can position children absolutely */
+  justify-items: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100vw;
+  height: auto; /* Adjust based on your desired height */
+  margin-bottom: 2.5em;
+}
+
+section.banner img {
+  grid-row: 1 / -1; /* Span across all rows */
+  grid-column: 1 / -1; /* Span across all columns */
+  z-index: -1; /* Ensure the image stays in the background */
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+section.banner h2, section.banner p {
+  position: absolute;
+  text-align: center; /* Center text horizontally */
+  color: white; /* White text on top of the image */
+  z-index: 1; /* Ensure text is above the image */
+  width: 100%;
+  margin: auto;
+}
+
+
+section.banner h2 {
+  font-size: 2.5em; /* Adjust font size */
+  margin-bottom: 1em; /* Space between <h2> and <p> */
+}
+
+section.banner p{
+  margin-top: 2.5em;
+}
+
+
+
+section:nth-of-type(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  align-items: center;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+section:nth-of-type(2) > img{
+  max-width: 205px;
+  order: -1;
+}
+
+
+section:nth-of-type(3) > h2{
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
@@ -156,93 +309,35 @@ h1{
   width: 1px;
 }
 
-h2{
-  font-size: 2.5em;
-  margin: 0 0 15px;
-  font-style: normal;
-  line-height: 1.8em;
-  max-width: 100%;
+section:nth-of-type(5) > h2{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
-h3{
-  font-size: 2.5em;
-    margin: 0 0 15px;
-    font-style: normal;
-    line-height: 1.8em;
-    max-width: 100%;
+section:nth-of-type(7) > h2{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
-p{
-  font-size: 19.2px;
-    margin: 0 0 15px;
-    font-style: normal;
-    line-height: 1.8em;
-    max-width: 100%;
+section:nth-of-type(9) > h2{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
-
-
-
-main{
-  padding-top: 4em;
-}
-
-
-  section.banner {
-    display: grid;
-    position: relative; /* Make section relative so we can position children absolutely */
-    justify-items: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    width: 100vw;
-    height: auto; /* Adjust based on your desired height */
-    margin-bottom: 2.5em;
-  }
-
-  section.banner img {
-    grid-row: 1 / -1; /* Span across all rows */
-    grid-column: 1 / -1; /* Span across all columns */
-    z-index: -1; /* Ensure the image stays in the background */
-    height: auto;
-    width: 100%;
-    object-fit: cover;
-  }
-
-
-  section.banner h2, section.banner p {
-    position: absolute;
-    text-align: center; /* Center text horizontally */
-    color: white; /* White text on top of the image */
-    z-index: 1; /* Ensure text is above the image */
-    width: 100%;
-    margin: auto;
-  }
-
-
-  section.banner h2 {
-    font-size: 2.5em; /* Adjust font size */
-    margin-bottom: 1em; /* Space between <h2> and <p> */
-  }
-
-  section.banner p{
-    margin-top: 2.5em;
-  }
-
-
-
-  section:nth-of-type(2){
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    text-align: center;
-    align-items: center;
-    margin-left: 2em;
-    margin-right: 2em;
-  }
-
-  section:nth-of-type(2) > img{
-    max-width: 205px;
-    order: -1;
-  }
-
 
 
 /***********/
@@ -263,7 +358,7 @@ main{
   }
 
 /* Styling for the individual articles */
-#promotions article {
+#promotions .productCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -271,7 +366,7 @@ main{
   text-align: center;
 }
 
-#promotions article img {
+#promotions .productCard img {
   width: 100%; /* Make the images responsive */
   max-width: 500px; /* Max width of the image (adjust as necessary) */
   height: auto;
@@ -306,6 +401,11 @@ main{
   padding: 20px;
 }
 
+.products a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 .products h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -325,25 +425,25 @@ main{
   align-items: center;
 }
 
-.products article {
+.products .productCard {
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
-.products article img {
+.products .productCard img {
   width: 100%; /* Make the images responsive */
   max-width: 200px; /* Max width of the image (adjust as necessary) */
   height: auto;
   order: -1;
 }
 
-.products article h3 {
+.products .productCard h3 {
   margin: 10px 0;
   font-size: 16px;
 }
 
-.products article p {
+.products .productCard p {
   margin: 0 0 10px;
   font-weight: bold;
 }
@@ -512,6 +612,14 @@ footer{
   color: var(--background-color);
   font-weight: bold;
   padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+footer a{
+  text-decoration: none;
+  color: var(--background-color);
 }
 
 footer ul{
@@ -524,6 +632,11 @@ footer ul li{
   list-style: none;
 }
 
+footer ul li a:focus{
+  outline: 10px solid yellow;
+  outline-offset: 20px;
+}
+
 footer form{
   display: flex;
   flex-direction: column;
@@ -531,9 +644,10 @@ footer form{
   padding-right: 2.5em;
 }
 
-footer  form  p{
+footer  form  label{
   font-weight: lighter;
   font-size: 16px;
+  margin-bottom: 0.5em;
 }
 
 footer form input{
@@ -541,7 +655,7 @@ footer form input{
   padding: 10px;
 }
 
-footer form button{
+footer form input[type="submit"]{
   display: block;
   text-align: center;
   color: white;
@@ -552,4 +666,15 @@ footer form button{
   background-color: #8F1500; /* Add a dark semi-transparent background */
   text-decoration: none; /* Remove underline from the link */
   margin-top: 1em;
+}
+
+footer form input[type="submit"]:focus{
+  outline: 10px solid red;
+  outline-offset: 20px;
+}
+
+footer > ul:nth-of-type(2){
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
