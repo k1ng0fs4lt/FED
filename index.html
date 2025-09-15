@@ -10,14 +10,25 @@
 	<script defer src="scripts/script.js"></script>
 </head>
 	<body>
+		<dialog hidden>
+			<button class="close-dialog" aria-label="Close">X</button>
+			<img src="images/popup.png" alt="popup picture">
+			<form>
+				<h2>GET 10% OFF YOUR FIRST ORDER!</h2>
+				<h3>Join the FBRC crew for 10% off your first buy and insider access to exclusive offers.</h3>
+				<input type="text" placeholder="First name">
+				<input type="email" placeholder="Email address">
+				<input type="submit" value="SIGN UP NOW">
+			</form>
+		</dialog>
 		<header>
 		<a href="index.html">
 			<img id="navLogo" src="images/websitenavlogo.png" alt="website logo">
 		</a>
-		<button class="open-menu"><img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg" alt="Hamburgermenu">Menu</button>  
+		<button class="open-menu"><img src="images/menuOpen.png" style="height: 18px; width: 18px;" alt="Hamburgermenu">Menu</button>  
 		<nav>
 			<button class="close-menu" aria-hidden="true">
-			<img src="https://assets.codepen.io/274456/ui-icon-cross.svg" alt="Close Menu">Sluit
+			<img src="images/menuSluit.png" style="height: 18px; width: 18px;" alt="Close Menu">Sluit
 			</button>    
 			<ul>
 			<li><a href="#">Home</a></li>
@@ -34,8 +45,21 @@
 			<li><a href="#">EUR €</a></li>                                                                              
 			</ul>
 		</nav>
+		<div class="navIcons">
+			<a href="#">
+				<img src="images/profile.png" style="height: 18px; width: 18px;" alt="Profile icon">
+			</a>
+			<a href="#">
+				<img src="images/icons/wishlist.svg" alt="Wishlist icon" class="iconWishlist">
+			</a>
+			<a href="#">
+				<img src="images/cart.png" style="height: 18px; width: 18px;" alt="Shopping cart icon">				
+			</a>
+		</div>
 		</header>
 		<main>
+			<p>GET 10% OFF</p>
+			<p>Rewards</p>
 			<h1>Fabric of the universe future apparrel</h1>
 			<section class="banner">
 				<h2>FUTURE CULTURE</h2>
@@ -224,6 +248,7 @@
 					</a>
 				</li>
 				<li>
+					
 				</li>
 				<li>
 					<a href="#">
