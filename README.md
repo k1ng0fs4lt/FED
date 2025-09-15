@@ -343,6 +343,7 @@ De pagina's worden met een breedte van 390px nagemaakt.
 
   1. Foto's - https://www.fabricoftheuniverse.com/en-nl 
   2. Hamburger menu sluit icoon - [https://assets.codepen.io/274456/ui-icon-cross.svg](https://www.flaticon.com/free-icon/arrow_10412365?term=close+menu&page=1&position=4&origin=search&related_id=10412365) 
-  3. Hamburger menu open icoon - https://www.flaticon.com/free-icon/menu_9663120?term=menu-burger&page=1&position=9&origin=tag&related_id=9663120 
+  3. Hamburger menu open icoon - https://www.flaticon.com/free-icon/menu_9663120?term=menu-burger&page=1&position=9&origin=tag&related_id=9663120
+  4. Profiel icoon - https://www.flaticon.com/free-icon/user_456212?term=profile&page=1&position=6&origin=search&related_id=456212
 
 </details>
