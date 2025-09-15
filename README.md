@@ -341,9 +341,16 @@ De pagina's worden met een breedte van 390px nagemaakt.
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. Foto's - https://www.fabricoftheuniverse.com/en-nl 
-  2. Hamburger menu sluit icoon - [https://assets.codepen.io/274456/ui-icon-cross.svg](https://www.flaticon.com/free-icon/arrow_10412365?term=close+menu&page=1&position=4&origin=search&related_id=10412365) 
-  3. Hamburger menu open icoon - https://www.flaticon.com/free-icon/menu_9663120?term=menu-burger&page=1&position=9&origin=tag&related_id=9663120
-  4. Profiel icoon - https://www.flaticon.com/free-icon/user_456212?term=profile&page=1&position=6&origin=search&related_id=456212
+  1. Foto's/ Wishlist icoon- https://www.fabricoftheuniverse.com/en-nl
+  2. Hamburger menu - https://codepen.io/shooft/pen/myepoVo 
+  3. Hamburger menu sluit icoon - [https://assets.codepen.io/274456/ui-icon-cross.svg](https://www.flaticon.com/free-icon/arrow_10412365?term=close+menu&page=1&position=4&origin=search&related_id=10412365) 
+  4. Hamburger menu open icoon - https://www.flaticon.com/free-icon/menu_9663120?term=menu-burger&page=1&position=9&origin=tag&related_id=9663120
+  5. Profiel icoon - https://www.flaticon.com/free-icon/user_456212?term=profile&page=1&position=6&origin=search&related_id=456212
+  6. Shopping cart icoon - https://www.flaticon.com/free-icon/grocery-store_3514491?term=shopping+cart&page=1&position=2&origin=search&related_id=3514491
+  7. Dropdown icoon - https://www.flaticon.com/free-icon/down-arrow_318426?term=drop+down&page=1&position=9&origin=tag&related_id=318426
+  8. Pop-up sluit icoon - https://www.flaticon.com/free-icon/delete_15219490?term=close+button&page=1&position=45&origin=tag&related_id=15219490
+  9. Banners - https://chatgpt.com/ - Prompt na het plakken van mijn snippet: Make the image as the background with the h2 and p under each other on top of it using grid (Wordt voor meerdere secties herbruikt)
+  10. Promoties - https://chatgpt.com/ - Prompt na het plakken van mijn snippet: Make this promotion section to have 1 column for the productcards and for medium and large screens 2 columns using grid (Wordt voor meerdere secties herbruikt)
+  11. Producten - https://chatgpt.com/ Prompt na het plakken van mijn snippet: Make the li's of this ul spread out on 2 columns on a small screen and on medium and large screens 4 columns using grid (Wordt voor meerdere secties herbruikt)
 
 </details>
