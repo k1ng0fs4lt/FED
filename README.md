@@ -215,7 +215,7 @@ De pagina's worden met een breedte van 390px nagemaakt.
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Punt 1: De toegankelijkheidstest is zeer uitgebreid gedaan op bepaalde punten, zoals de screenreader. echter kan het wat meer uitgebreid op andere punten van de WACG checklist.
   - Punt 2 Verder moet ik beter kijken welke secties inderdaad articles bevatten. Articles zijn stukjes code die informatie vertelt, net als een klein stuk tekst met wat afbeeldingen. De product secties zijn dus geen articles dus dat moet aangepast worden.
@@ -233,7 +233,21 @@ De pagina's worden met een breedte van 390px nagemaakt.
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Na afgelopen feedback moment heb ik 
+  - de toegankelijkheidstest heb ik meer uitgebreid verwerkt.
+  - Article tags die niet correct waren gebruikt verwijderd.
+  - Alle sectie van een kopje voorzien (en indien nodig) het onzichtbaar gemaakt.
+  - Een pop-up venster kunnen maken (werkt alleen goed op een groot scherm).
+  - Een carousel kunnen maken
+  - De website meer toegankelijk gemaakt met media queries voor dark/light mode voorkeur
+
+  Verder loop ik nu nog vast bij 
+  - Optionele onderdelen zoals een drop-down in een drop-down bij mijn navigatie.
+  - Alle iconen van een ander kleur voorzien bij dark/light mode voorkeuren.
+
+  En wellicht is het wel een kansrijke oplossing als ik nog even kan kijken hoe ik de grootte van mijn afbeeldingen kan aanpassen voor toegankelijkheid.
+  
+  
 
 
   ### Agenda voor meeting
