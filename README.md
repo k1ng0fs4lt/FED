@@ -253,10 +253,16 @@ De pagina's worden met een breedte van 390px nagemaakt.
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Amber          | Vincent            | Rafella      | student 4        |
+  | Opbouw van 
+    HTML/CSS 
+    voor tweede 
+    pagina         | ---                | ---          | ---              |
+  | Noodzakelijkheid 
+    3 pagina's bouwen 
+    voor carousel  | en dit             | en ik dit    | en dan ik dat    |
+  | Verbetering
+    CSS eerste pagina| dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
