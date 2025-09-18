@@ -377,5 +377,6 @@ De pagina's worden met een breedte van 390px nagemaakt.
   12. Producten - https://chatgpt.com/ Prompt na het plakken van mijn snippet: Make the li's of this ul spread out on 2 columns on a small screen and on medium and large screens 4 columns using grid (Wordt voor meerdere secties herbruikt)
   13. Positioneren van de button op de pop-up melding - https://chatgpt.com/ Prompt met de code snippets: I have a dialog box here, so i want the button to be on the right corner of the dialog
   14. De pop-up laten komen 5 seconde nadat de pagina is geladen -  https://chatgpt.com/ Prompt: how do i put in javascript to show this dialog with a window onload fucntion after 5 seconds?
+  15. De svg iconen laten wiebelen - https://chatgpt.com/ Prompt: how can i animate my svg icons to wobble?
 
 </details>
