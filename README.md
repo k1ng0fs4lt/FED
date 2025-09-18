@@ -269,10 +269,12 @@ De pagina's worden met een breedte van 390px nagemaakt.
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Plaatsing van de script tag kan eventueel onderaan 
+  - Wellicht de styling aanpassen van teveel classes om het te versimpelen
+  - Voor de footer moet ik elke betaalmethode in een li tag zetten
+  - Voor de dropdown in de naviagtie zelf moet ik met javascript het laten doen
+  - Voor de pop-up moet ik het nog afmaken voor de mobiele versie
+  - Ik moet nog heel even kijken of ik 5 onderdelen van de onderwerp nog moet toepassen in mijn website
 
 </details>
 
