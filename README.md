@@ -367,9 +367,9 @@ De pagina's worden met een breedte van 390px nagemaakt.
   2. Hamburger menu - https://codepen.io/shooft/pen/myepoVo 
   3. Hamburger menu sluit icoon - [https://assets.codepen.io/274456/ui-icon-cross.svg](https://www.flaticon.com/free-icon/arrow_10412365?term=close+menu&page=1&position=4&origin=search&related_id=10412365) 
   4. Hamburger menu open icoon - https://www.flaticon.com/free-icon/menu_9663120?term=menu-burger&page=1&position=9&origin=tag&related_id=9663120
-  5. Profiel icoon - https://www.flaticon.com/free-icon/user_456212?term=profile&page=1&position=6&origin=search&related_id=456212
-  6. Zoek icoon - https://www.flaticon.com/free-icon/search_149852?term=search&page=1&position=3&origin=tag&related_id=149852 
-  7. Shopping cart icoon - https://www.flaticon.com/free-icon/grocery-store_3514491?term=shopping+cart&page=1&position=2&origin=search&related_id=3514491
+  5. Profiel icoon - https://icones.js.org/collection/all?s=profile&icon=material-symbols:person 
+  6. Zoek icoon - https://icones.js.org/collection/all?s=search&icon=ic:baseline-search 
+  7. Shopping cart icoon - https://icones.js.org/collection/all?s=cart&icon=material-symbols:shopping-cart 
   8. Dropdown icoon - https://www.flaticon.com/free-icon/down-arrow_318426?term=drop+down&page=1&position=9&origin=tag&related_id=318426
   9. Pop-up sluit icoon - https://www.flaticon.com/free-icon/delete_15219490?term=close+button&page=1&position=45&origin=tag&related_id=15219490
   10. Banners - https://chatgpt.com/ - Prompt na het plakken van mijn snippet: Make the image as the background with the h2 and p under each other on top of it using grid (Wordt voor meerdere secties herbruikt)
