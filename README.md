@@ -372,11 +372,14 @@ De pagina's worden met een breedte van 390px nagemaakt.
   7. Shopping cart icoon - https://icones.js.org/collection/all?s=cart&icon=material-symbols:shopping-cart 
   8. Dropdown icoon - https://www.flaticon.com/free-icon/down-arrow_318426?term=drop+down&page=1&position=9&origin=tag&related_id=318426
   9. Pop-up sluit icoon - https://www.flaticon.com/free-icon/delete_15219490?term=close+button&page=1&position=45&origin=tag&related_id=15219490
-  10. Banners - https://chatgpt.com/ - Prompt na het plakken van mijn snippet: Make the image as the background with the h2 and p under each other on top of it using grid (Wordt voor meerdere secties herbruikt)
-  11. Promoties - https://chatgpt.com/ - Prompt na het plakken van mijn snippet: Make this promotion section to have 1 column for the productcards and for medium and large screens 2 columns using grid (Wordt voor meerdere secties herbruikt)
-  12. Producten - https://chatgpt.com/ Prompt na het plakken van mijn snippet: Make the li's of this ul spread out on 2 columns on a small screen and on medium and large screens 4 columns using grid (Wordt voor meerdere secties herbruikt)
-  13. Positioneren van de button op de pop-up melding - https://chatgpt.com/ Prompt met de code snippets: I have a dialog box here, so i want the button to be on the right corner of the dialog
-  14. De pop-up laten komen 5 seconde nadat de pagina is geladen -  https://chatgpt.com/ Prompt: how do i put in javascript to show this dialog with a window onload fucntion after 5 seconds?
-  15. De svg iconen laten wiebelen - https://chatgpt.com/ Prompt: how can i animate my svg icons to wobble?
+  10. Twitter icoon - https://icones.js.org/collection/all?s=twitter&icon=mdi:twitter
+  11. Facebook icoon - https://icones.js.org/collection/all?s=facebook&icon=bx:bxl-facebook 
+  12. Mail icoon - https://icones.js.org/collection/all?s=mail&icon=streamline:mail-send-email-message-solid 
+  13. Banners - https://chatgpt.com/ - Prompt na het plakken van mijn snippet: Make the image as the background with the h2 and p under each other on top of it using grid (Wordt voor meerdere secties herbruikt)
+  14. Promoties - https://chatgpt.com/ - Prompt na het plakken van mijn snippet: Make this promotion section to have 1 column for the productcards and for medium and large screens 2 columns using grid (Wordt voor meerdere secties herbruikt)
+  15. Producten - https://chatgpt.com/ Prompt na het plakken van mijn snippet: Make the li's of this ul spread out on 2 columns on a small screen and on medium and large screens 4 columns using grid (Wordt voor meerdere secties herbruikt)
+  16. Positioneren van de button op de pop-up melding - https://chatgpt.com/ Prompt met de code snippets: I have a dialog box here, so i want the button to be on the right corner of the dialog
+  17. De pop-up laten komen 5 seconde nadat de pagina is geladen -  https://chatgpt.com/ Prompt: how do i put in javascript to show this dialog with a window onload fucntion after 5 seconds?
+  18. De svg iconen laten wiebelen - https://chatgpt.com/ Prompt: how can i animate my svg icons to wobble?
 
 </details>
