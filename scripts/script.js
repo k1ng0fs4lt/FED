@@ -100,3 +100,32 @@ function closeMenu() {
     productAfbeelding.style.backgroundImage = "url('./images/product11.png')";
   })
 
+  
+// Run on page load
+window.onload = switchContrast;
+
+function switchContrast() {
+  const toggle = document.querySelector('.toggleContrast');
+
+  // Apply stored setting on page load
+  const contrastEnabled = localStorage.getItem('contrast') === 'on';
+  toggle.checked = contrastEnabled;
+  document.body.classList.toggle('contrast', contrastEnabled);
+
+  // Listen for toggle changes
+  toggle.addEventListener('change', () => {
+    if (toggle.checked) {
+      document.body.classList.add('contrast');
+      localStorage.setItem('contrast', 'on');
+    } else {
+      document.body.classList.remove('contrast');
+      localStorage.setItem('contrast', 'off');
+    }
+
+  });
+
+
+}
+
+
+

@@ -4,14 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="author" content="Kevin Yip">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Homepagina</title>
+	<title>CYM-03 Black Red Cyber Mask - Fabric of the Universe</title>
 	<link href="styles/style.css" rel="stylesheet">
 	<link href="https://fonts.cdnfonts.com/css/slate" rel="stylesheet">
 	<script defer src="scripts/script.js"></script>
 </head>
 	<body>
 		<header>
-			<img id="navLogo" src="images/websitenavlogo.png" alt="website logo">
+			<a href="index.html">
+				<img id="navLogo" src="images/websitenavlogo.png" alt="website logo">
+			</a>
 			<button class="open-menu"><img src="images/menuOpen.png" style="height: 18px; width: 18px;" alt="Hamburgermenu">Menu</button>  
 			<nav>
 				<button class="close-menu" aria-hidden="true">
@@ -19,13 +21,56 @@
 				</button>    
 				<ul>
 					<li><a href="#">Home</a></li>
-					<li><a href="#">Sale</a></li>
-					<li><a href="#">Jackets</a></li>
+					<li class="dropdown">
+						<a href="#">Sale ▼</a>
+						<ul class="sub-menu">
+							<li><a href="#">Sale Bottoms</a></li>
+							<li><a href="#">Sale Jackets</a></li>
+							<li><a href="#">Sale Pullovers</a></li>
+							<li><a href="#">Sale T-Shirts</a></li>							
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#">Jackets ▼</a>
+						<ul class="sub-menu">
+							<li><a href="#">Bomber Jackets</a></li>
+							<li><a href="#">Windbreakers</a></li>
+							<li><a href="#">Trenchcoats</a></li>							
+						</ul>
+					</li>
 					<li><a href="#">Pullovers</a></li>
 					<li><a href="#">T-Shirts</a></li>
-					<li><a href="#">Bottoms</a></li>
-					<li><a href="#">Hats</a></li>
-					<li><a href="#">Accessories</a></li>
+					<li class="dropdown">
+						<a href="#">Bottoms ▼</a>
+						<ul class="sub-menu">
+							<li><a href="#">Cargo Pants</a></li>
+							<li><a href="#">Joggers</a></li>
+							<li><a href="#">Shorts</a></li>
+							<li><a href="#">Skirts</a></li>							
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#">Hats ▼</a>
+						<ul class="sub-menu">
+							<li><a href="#">Caps</a></li>
+							<li><a href="#">Bucket Hats</a></li>
+							<li><a href="#">Beanies</a></li>							
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#">Accessories ▼</a>
+						<ul class="sub-menu">
+							<li><a href="#">Bags</a></li>
+							<li><a href="#">Face Wear</a></li>
+							<li><a href="#">Gloves</a></li>	
+							<li><a href="#">Hang tags</a></li>
+							<li><a href="#">Jewelry</a></li>
+							<li><a href="#">Shoes</a></li>
+							<li><a href="#">Socks</a></li>
+							<li><a href="#">Stickers</a></li>
+							<li><a href="#">Underwear</a></li>																				
+						</ul>
+					</li>
 					<li><a href="#">Archive</a></li>
 					<li><a href="#">Discord</a></li>
 					<li><a href="#">Sign in</a></li>
@@ -50,101 +95,513 @@
 		<main>
 			<p id="discountStickyBtn">GET 10% OFF</p>
 			<p>Rewards</p>
-			<h1>Fabric of the universe future apparrel product page</h1>
-			<ul id="breadcrumbs">
-				<li>
-					<a href="#">Home></a>
-				</li>
-				<li>
-					<a href="#">Products></a>
-				</li>
-				<li>
-					<a href="#">CYM-03 Black Red Cyber Mask</a>
-				</li>
-			</ul>
-			<div id="carousel">
-				<div id="imageContainer">
-					<img src="images/soldout.png" alt="soldout" class="iconSoldout">
-					<img src="images/icons/wishlist.svg" alt="wishlist icon" class="iconWishlist">
+				<h1>Fabric of the universe future apparrel product page</h1>
+				<ul id="breadcrumbs">
+					<li>
+						<a href="#">Home></a>
+					</li>
+					<li>
+						<a href="#">Products></a>
+					</li>
+					<li>
+						<a href="#">CYM-03 Black Red Cyber Mask</a>
+					</li>
+				</ul>
+				<div id="productPagina">
+					<div id="carousel">
+						<div id="imageContainer">
+							<img src="images/soldout.png" alt="soldout" class="iconSoldout">
+							<img src="images/icons/wishlist.svg" alt="wishlist icon" class="iconWishlist">
+						</div>
+						<div id="productThumbnails">
+							<ol>
+								<li>
+									<a href="#">
+										<img src="images/product1.png" alt="product image 1">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/product2.png" alt="product image 2">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/product3.png" alt="product image 3">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/product4.png" alt="product image 4">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/product5.png" alt="product image 5">									
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/product6.png" alt="product image 6">
+									</a>
+								</li>							
+								<li>
+									<a href="#">
+										<img src="images/product7.png" alt="product image 7">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/product8.png" alt="product image 8">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/product9.png" alt="product image 9">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/product10.png" alt="product image 10">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="images/product11.png" alt="product image 11">
+									</a>
+								</li>
+							</ol>
+						</div>
+					</div>
+					<div id="productInfo">
+						<article id="productDetails">
+							<h2>CYM-03 Black Red Cyber Mask</h2>
+							<h3>€332,95- SOLD OUT</h3>
+							<p>Size Guide</p>
+							<p>The CYM-03 Black Red Cyber Mask is expertly handcrafted by Putty Studio in Thailand.
+								Made from thick, durable resin and fiberglass, this mask features sharper edges and
+								a more pronounced design than earlier versions. It showcases a meticulously painted two-tone 
+								finish with signature logos perfectly placed. Available in one size, it offers both style and 
+								durability for a standout look. Limited edition.</p>
+							<div id="badges">
+								<img src="images/icons/badge1.svg" alt="Guaranteed Quality Badge">
+								<img src="images/icons/badge2.svg" alt="Money Back Guarantee Badge">	  
+								<img src="images/icons/badge3.svg" alt="Worldwide Shipping Badge">	  
+								<img src="images/icons/badge4.svg" alt="100% Secure Online Shopping Badge">	  
+							</div>	 
+						</article>
+						<form id="productForm">
+							<p>Size</p> 
+							<label>L
+								<img src="images/sizeSoldout.png" alt="Size soldout">
+							</label>
+							<button type="submit">Soldout</button>
+							<button>Buy with<img src="images/icons/shopLogo.svg"></button>
+							<a href="#">More payment options</a>
+							<button>Notify Me When Available</button>
+							<p>Checkout safely using your preferred payment method</p>
+						</form>
+						<ul>
+							<li>
+								<img class="paymentMethods" src="images/icons/paymenticon14.svg" alt="Amazon pay">
+							</li>
+							<li>
+								<img class="paymentMethods" src="images/icons/paymenticon2.svg" alt="American Express">
+							</li>
+							<li>
+								<img class="paymentMethods" src="images/icons/paymenticon15.svg" alt="Apple pay">
+							</li>
+							<li>
+								<img class="paymentMethods" src="images/icons/paymenticon3.svg" alt="Diners Club">
+							</li>
+							<li>
+								<img class="paymentMethods" src="images/icons/paymenticon4.svg" alt="Discover">
+							</li>
+							<li>
+								<img class="paymentMethods" src="images/icons/paymenticon16.svg" alt="Google pay">
+							</li>
+							<li>
+								<img class="paymentMethods" src="images/icons/paymenticon8.svg" alt="Maestro">
+							</li>
+							<li>
+								<img class="paymentMethods" src="images/icons/paymenticon9.svg" alt="Mastercard">
+							</li>
+							<li>
+								<img class="paymentMethods" src="images/icons/paymenticon10.svg" alt="PayPal">
+							</li>
+							<li>
+								<img class="paymentMethods" src="images/icons/paymenticon13.svg" alt="VISA">
+							</li>				
+						</ul>
+						<ul id="socials">
+							<p>Share:</p>
+							<li>
+								<a href="#">
+									<img src="images/icons/twitter.svg" alt="Twitter">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/icons/facebook.svg" alt="Facebook">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/icons/pinterest.svg" alt="Pinterest">						
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="images/icons/mail.svg" alt="Mail">						
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<div id="productThumbnails">
-					<ol>
+				<h2>No reviews yet. Be the first to add a review</h2>
+				<button>Write a review</button>
+				<div id="divider"></div>
+				<div id="relatedProducts">
+					<h2>Customers who also bought this also bought</h2>
+					<ul>
 						<li>
-							<a href="#">
-								<img src="images/product1.png" alt="product image 1">
-							</a>
+							<img src="images/sleevelesshoodie.png" alt="Black Sleeveless hoodie">
+							<h3>SLR-Type 0 1 1 A Black Sleeveless hoodie</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€59,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
 						</li>
 						<li>
-							<a href="#">
-								<img src="images/product2.png" alt="product image 2">
-							</a>
+							<img src="images/goldkingscap.png" alt="black gold kings cap">
+							<h3>KC-Type 01A Black Gold King's Cap</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€32,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
 						</li>
 						<li>
-							<a href="#">
-								<img src="images/product3.png" alt="product image 3">
-							</a>
+							<img src="images/purplecybermask.png" alt="Black purple Cyber Mask">
+							<h3>CYM-03 Black Purple Cyber Mask</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>Soldout</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
 						</li>
 						<li>
-							<a href="#">
-								<img src="images/product4.png" alt="product image 4">
-							</a>
+							<img src="images/raglanhoodie.png" alt="panda raglan hoodie">
+							<h3>RG-1000 Panda Raglan hoodie</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€84,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
 						</li>
 						<li>
-							<a href="#">
-								<img src="images/product5.png" alt="product image 5">									
-							</a>
+							<img src="images/sleevelesshoodie.png" alt="Black Sleeveless hoodie">
+							<h3>SLR-Type 0 1 1 A Black Sleeveless hoodie</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€59,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
 						</li>
 						<li>
-							<a href="#">
-								<img src="images/product6.png" alt="product image 6">
-							</a>
+							<img src="images/goldkingscap.png" alt="black gold kings cap">
+							<h3>KC-Type 01A Black Gold King's Cap</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€32,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
+						</li>
+						<li>
+							<img src="images/purplecybermask.png" alt="Black purple Cyber Mask">
+							<h3>CYM-03 Black Purple Cyber Mask</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>Soldout</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
+						</li>
+						<li>
+							<img src="images/raglanhoodie.png" alt="panda raglan hoodie">
+							<h3>RG-1000 Panda Raglan hoodie</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€84,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
+						</li>
+												<li>
+							<img src="images/sleevelesshoodie.png" alt="Black Sleeveless hoodie">
+							<h3>SLR-Type 0 1 1 A Black Sleeveless hoodie</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€59,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
+						</li>
+						<li>
+							<img src="images/goldkingscap.png" alt="black gold kings cap">
+							<h3>KC-Type 01A Black Gold King's Cap</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€32,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
+						</li>
+						<li>
+							<img src="images/purplecybermask.png" alt="Black purple Cyber Mask">
+							<h3>CYM-03 Black Purple Cyber Mask</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>Soldout</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
+						</li>
+						<li>
+							<img src="images/raglanhoodie.png" alt="panda raglan hoodie">
+							<h3>RG-1000 Panda Raglan hoodie</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€84,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
+						</li>
+						<li>
+							<img src="images/sleevelesshoodie.png" alt="Black Sleeveless hoodie">
+							<h3>SLR-Type 0 1 1 A Black Sleeveless hoodie</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€59,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
+						</li>
+						<li>
+							<img src="images/goldkingscap.png" alt="black gold kings cap">
+							<h3>KC-Type 01A Black Gold King's Cap</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€32,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
+						</li>
+						<li>
+							<img src="images/purplecybermask.png" alt="Black purple Cyber Mask">
+							<h3>CYM-03 Black Purple Cyber Mask</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>Soldout</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
+						</li>
+						<li>
+							<img src="images/raglanhoodie.png" alt="panda raglan hoodie">
+							<h3>RG-1000 Panda Raglan hoodie</h3>
+							<div class="reviews">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+								<img src="images/icons/star.svg">
+							</div>
+							<p>€84,50</p>
+							<select class="sizing" name="size">
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+								<option value="xl">XXL</option>
+								<option value="xl">3XL</option>
+							</select>
+							<button>Add to cart</button>
 						</li>							
-						<li>
-							<a href="#">
-								<img src="images/product7.png" alt="product image 7">
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="images/product8.png" alt="product image 8">
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="images/product9.png" alt="product image 9">
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="images/product10.png" alt="product image 10">
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="images/product11.png" alt="product image 11">
-							</a>
-						</li>
-					</ol>
+					</ul>
 				</div>
-			</div>
-			<article id="productDetails">
-				<h2>CYM-03 Black Red Cyber Mask</h2>
-				<h3>€332,95- SOLD OUT</h3>
-				<p>Size Guide</p>
-				<p>The CYM-03 Black Red Cyber Mask is expertly handcrafted by Putty Studio in Thailand.
-					 Made from thick, durable resin and fiberglass, this mask features sharper edges and
-					  a more pronounced design than earlier versions. It showcases a meticulously painted two-tone 
-					  finish with signature logos perfectly placed. Available in one size, it offers both style and 
-					  durability for a standout look. Limited edition.</p>
-				<div id="badges">
-					<img src="images/icons/badge1.svg" alt="Guaranteed Quality Badge">
-					<img src="images/icons/badge2.svg" alt="Money Back Guarantee Badge">	  
-					<img src="images/icons/badge3.svg" alt="Worldwide Shipping Badge">	  
-					<img src="images/icons/badge4.svg" alt="100% Secure Online Shopping Badge">	  
-				</div>	 
-				<p>Size</p> 
-			</article>
-
 		</main>
 		<footer>
 			<ul>

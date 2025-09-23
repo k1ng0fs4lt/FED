@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="author" content="Kevin Yip">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Homepagina</title>
+	<title>Fabric Of The Universe | Future Fashion Apparel</title>
 	<link href="styles/style.css" rel="stylesheet">
 	<link href="https://fonts.cdnfonts.com/css/slate" rel="stylesheet">
 	<script defer src="scripts/script.js"></script>
@@ -22,7 +22,9 @@
 			</form>
 		</dialog>
 		<header>
-			<img id="navLogo" src="images/websitenavlogo.png" alt="website logo">
+			<a href="index.html">
+				<img id="navLogo" src="images/websitenavlogo.png" alt="website logo">
+			</a>
 			<button class="open-menu"><img src="images/menuOpen.png" style="height: 18px; width: 18px;" alt="Hamburgermenu">Menu</button>  
 			<nav>
 				<button class="close-menu" aria-hidden="true">
@@ -30,13 +32,56 @@
 				</button>    
 				<ul>
 					<li><a href="#">Home</a></li>
-					<li><a href="#">Sale</a></li>
-					<li><a href="#">Jackets</a></li>
+					<li class="dropdown">
+						<a href="#">Sale ▼</a>
+						<ul class="sub-menu">
+							<li><a href="#">Sale Bottoms</a></li>
+							<li><a href="#">Sale Jackets</a></li>
+							<li><a href="#">Sale Pullovers</a></li>
+							<li><a href="#">Sale T-Shirts</a></li>							
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#">Jackets ▼</a>
+						<ul class="sub-menu">
+							<li><a href="#">Bomber Jackets</a></li>
+							<li><a href="#">Windbreakers</a></li>
+							<li><a href="#">Trenchcoats</a></li>							
+						</ul>
+					</li>
 					<li><a href="#">Pullovers</a></li>
 					<li><a href="#">T-Shirts</a></li>
-					<li><a href="#">Bottoms</a></li>
-					<li><a href="#">Hats</a></li>
-					<li><a href="#">Accessories</a></li>
+					<li class="dropdown">
+						<a href="#">Bottoms ▼</a>
+						<ul class="sub-menu">
+							<li><a href="#">Cargo Pants</a></li>
+							<li><a href="#">Joggers</a></li>
+							<li><a href="#">Shorts</a></li>
+							<li><a href="#">Skirts</a></li>							
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#">Hats ▼</a>
+						<ul class="sub-menu">
+							<li><a href="#">Caps</a></li>
+							<li><a href="#">Bucket Hats</a></li>
+							<li><a href="#">Beanies</a></li>							
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#">Accessories ▼</a>
+						<ul class="sub-menu">
+							<li><a href="#">Bags</a></li>
+							<li><a href="#">Face Wear</a></li>
+							<li><a href="#">Gloves</a></li>	
+							<li><a href="#">Hang tags</a></li>
+							<li><a href="#">Jewelry</a></li>
+							<li><a href="#">Shoes</a></li>
+							<li><a href="#">Socks</a></li>
+							<li><a href="#">Stickers</a></li>
+							<li><a href="#">Underwear</a></li>																				
+						</ul>
+					</li>
 					<li><a href="#">Archive</a></li>
 					<li><a href="#">Discord</a></li>
 					<li><a href="#">Sign in</a></li>
@@ -45,21 +90,26 @@
 			</nav>
 			<div class="navIcons">
 				<a href="#">
-					<img src="images/profile.png" style="height: 18px; width: 18px;" alt="Profile icon">
+					<img src="images/icons/profile.svg" style="height: 25px; width: 25px;" alt="Profile icon" class="navIcon">
 				</a>
 				<a href="#">
-					<img src="images/icons/searchIcon.png" style="height: 18px; width: 18px;" alt="Search icon">
+					<img src="images/icons/search.svg" style="height: 25px; width: 25px;" alt="Search icon" class="navIcon">
 				</a>
 				<a href="#">
-					<img src="images/icons/wishlist.svg" alt="Wishlist icon" class="iconWishlist">
+					<img src="images/icons/wishlist.svg" alt="Wishlist icon" class="navIcon">
 				</a>
 				<a href="#">
-					<img src="images/cart.png" style="height: 18px; width: 18px;" alt="Shopping cart icon">				
+					<img src="images/icons/cart.svg" style="height: 18px; width: 18px;" alt="Shopping cart icon" class="navIcon">				
 				</a>
 			</div>
 		</header>
 		<main>
 			<input type="search" placeholder="   Search" >
+			<label class="switchContrast">
+				<span >Switch Contrast</span>
+				<input type="checkbox" class="toggleContrast">
+				<span class="slider"></span>
+			</label>
 			<p>GET 10% OFF</p>
 			<p>Rewards</p>
 			<h1>Fabric of the universe future apparrel</h1>
@@ -206,9 +256,17 @@
 					<li>
 						<a href="#">
 							<div class="productCard">
-									<h3>SX-005 Black Red crew Socks</h3>
-									<p>$9,50</p>
-									<img src="images/blackredsocks.png" alt="Black red crew socks">
+								<h3>SX-005 Black Red crew Socks</h3>
+								<div class="reviews">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<p>(22)</p>
+								</div>
+								<p>$9,50</p>
+								<img src="images/blackredsocks.png" alt="Black red crew socks">
 							</div>
 						</a>
 					</li>
@@ -216,6 +274,14 @@
 						<a href="#">
 							<div class="productCard">
 								<h3>FBRC Black Crew Socks</h3>
+								<div class="reviews">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<p>(2)</p>
+								</div>								
 								<p>$9,50</p>
 								<img src="images/blacksocks.png" alt="Black crew socks">
 							</div>
@@ -225,6 +291,14 @@
 						<a href="#">
 							<div class="productCard">
 								<h3>V5-SX03 White Crew Socks</h3>
+								<div class="reviews">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<p>(22)</p>									
+								</div>									
 								<p>$9,50</p>
 								<img src="images/whitesocks.png" alt="White crew socks">
 							</div>
@@ -234,6 +308,14 @@
 						<a href="#">
 							<div class="productCard">
 								<h3>Bahamut Black Crew Socks</h3>
+								<div class="reviews">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<img src="images/icons/star.svg">
+									<p>(22)</p>									
+								</div>								
 								<p>$9,50</p>
 								<img src="images/bahamutsocks.png" alt="Bahamut Black crew socks">
 							</div>
@@ -290,27 +372,53 @@
 			</ul>
 			<form>
 				<label>Sign up to get the latest on sales, new releases and more...</label>
-				<input required type="email" placeholder="Email address">
-				<input type="submit" value="Sign up">
+				<div class="signUpForm">
+					<input required type="email" placeholder="Email address">
+					<input type="submit" value="Sign up">
+				</div>
 				<p>© 2025 Fabric of the Universe.</p>
 				<p>Powered by Shopify</p>
 			</form>
 			<ul>
 				<li>
 					<img class="paymentMethods" src="images/icons/paymenticon1.svg" alt="ClearPay">
-					<img class="paymentMethods" src="images/icons/paymenticon2.svg" alt="American Express">
-					<img class="paymentMethods" src="images/icons/paymenticon3.svg" alt="Diners Club">
-					<img class="paymentMethods" src="images/icons/paymenticon4.svg" alt="Discover">
-					<img class="paymentMethods" src="images/icons/paymenticon5.svg" alt="iDEAL">
-					<img class="paymentMethods" src="images/icons/paymenticon6.svg" alt="JCB">
-					<img class="paymentMethods" src="images/icons/paymenticon7.svg" alt="Klarna">
-					<img class="paymentMethods" src="images/icons/paymenticon8.svg" alt="Maestro">
-					<img class="paymentMethods" src="images/icons/paymenticon9.svg" alt="Mastercard">
-					<img class="paymentMethods" src="images/icons/paymenticon10.svg" alt="PayPal">
-					<img class="paymentMethods" src="images/icons/paymenticon11.svg" alt="UnionPay">
-					<img class="paymentMethods" src="images/icons/paymenticon12.svg" alt="VPay">
-					<img class="paymentMethods" src="images/icons/paymenticon13.svg" alt="VISA">
 				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon2.svg" alt="American Express">
+				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon3.svg" alt="Diners Club">
+				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon4.svg" alt="Discover">
+				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon5.svg" alt="iDEAL">
+				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon6.svg" alt="JCB">
+				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon7.svg" alt="Klarna">
+				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon8.svg" alt="Maestro">
+				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon9.svg" alt="Mastercard">
+				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon10.svg" alt="PayPal">
+				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon11.svg" alt="UnionPay">
+				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon12.svg" alt="VPay">
+				</li>
+				<li>
+					<img class="paymentMethods" src="images/icons/paymenticon13.svg" alt="VISA">
+				</li>				
 			</ul>
 		</footer>
 	</body>	
