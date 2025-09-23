@@ -381,5 +381,6 @@ De pagina's worden met een breedte van 390px nagemaakt.
   16. Positioneren van de button op de pop-up melding - https://chatgpt.com/ Prompt met de code snippets: I have a dialog box here, so i want the button to be on the right corner of the dialog
   17. De pop-up laten komen 5 seconde nadat de pagina is geladen -  https://chatgpt.com/ Prompt: how do i put in javascript to show this dialog with a window onload fucntion after 5 seconds?
   18. De svg iconen laten wiebelen - https://chatgpt.com/ Prompt: how can i animate my svg icons to wobble?
+  19. De dropdown in een dropdown - https://chatgpt.com/ Prompt: how can i make another dropdown inside one of the nav list items that automatically opens when you hover over it?
 
 </details>
