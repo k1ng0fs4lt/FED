@@ -1099,20 +1099,26 @@ article#productDetails img{
   margin-top: 0;
 }
 
-ul#socials{
-  list-style: none;
+#socials{
   display: flex;
   justify-content: start;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-top: 0;
 }
 
-ul#socials li{
+#socials ul{
+  list-style: none;
+
   margin-top: 0;
+  padding-right: 2em;
 }
 
-ul#socials li img{
+#socials ul li{
+  margin-top: 0;
+  padding-left: 0;
+}
+
+#socials ul li img{
   height: 2em;
   width: 2em;
   padding: 5px; 
@@ -1120,7 +1126,12 @@ ul#socials li img{
   border-radius: 50%; 
   box-sizing: border-box; 
   object-fit: cover;
-  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
+#socials p{
+  margin-left: 2em;
+  margin-top: 0;
 }
 
 main > h2{
@@ -1374,7 +1385,7 @@ footer ul:last-of-type{
     color: var(--background-color);
   }
 
-  .navicon{
+  .navIcons{
     filter: invert(100%);
   }
 
@@ -1412,27 +1423,6 @@ footer ul:last-of-type{
     grid-template-columns: 1fr 1fr; 
   }
 }
-
-
-/* @media (min-width: 600px) {
-  footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: start;
-  }
-
-  footer ul:first-of-type{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-  }
-
-  footer ul:first-of-type > li{
-    margin-right: 1em;
-  }
-} */
 
 @media only screen and (max-width: 480px){
   #imageContainer > img{
