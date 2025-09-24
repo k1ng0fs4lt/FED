@@ -1190,6 +1190,7 @@ main > button:last-of-type{
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-right: 1em;
 }
 
 #relatedProducts ul li > img{
@@ -1387,6 +1388,40 @@ footer ul:last-of-type{
 
   .navIcons{
     filter: invert(100%);
+  }
+
+  ul#breadcrumbs a {
+    color: var(--background-color);
+  }
+
+  ul#breadcrumbs > li:nth-of-type(1) > a{
+    color: var(--second-button-color);
+  }
+
+  ul#breadcrumbs > li:nth-of-type(2) > a{
+    color: var(--second-button-color);
+  }
+
+  article#productDetails > p:first-of-type{
+    color: var(--second-button-color);
+  }
+
+  article#productDetails h3{
+    color: #cf2305;
+    opacity: 100;
+  }
+
+  #socials img{
+    filter: invert(100%);
+  }
+
+  #productForm a{
+    color: var(--second-button-color);
+  }
+
+  main > button:last-of-type{
+    color: var(--text-color);
+    background-color: var(--background-color);
   }
 
 }
