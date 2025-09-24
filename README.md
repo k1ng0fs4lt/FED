@@ -294,7 +294,7 @@ De pagina's worden met een breedte van 390px nagemaakt.
           
   <img src="readme-images/sc32.jpg" alt="De screenreader leest correct eerst de pop-up venster af">
   
-  3. De wesbite ondersteunt zowel dark als lightmode.
+  2. De wesbite ondersteunt zowel dark als lightmode.
      
   <img src="readme-images/sc33.jpg" alt="De website wordt nu weergeven in light mode (standaard)">
   <img src="readme-images/sc34.jpg" alt="De website wordt nu weergeven in dark mode"> 
@@ -326,8 +326,38 @@ De pagina's worden met een breedte van 390px nagemaakt.
   15. De website is te navigeren met de toetsenbord. Elementen zijn duidelijk gehighlight met een focus style en het gaat de juiste volgorde af van de visuele layout.
 
   <img src="readme-images/sc39.jpg" alt="Een element wordt gehighlight met een focus stijl door het navigeren met de toetsenbord"> 
-  
 
+  16. De website is op mobiel te zien op zowel portait mode als landscape mode.
+
+  <img src="readme-images/sc40.jpg" alt="De website wordt nu weergeven op mobiel in potrait mode"> 
+  <img src="readme-images/sc41.jpg" alt="De website wordt nu weergeven op mobiel in landscape mode"> 
+
+  17. Links en iconen zijn iets lastiger dan normaal om te bereiken door de grootte van de telefoon zelf.
+  18. Er is niet veel ruimte tussen elementen maar dat is geen probleem voor het scrollen.
+  19. Horizontaal scrollen staat uit op beide modus.
+  20. Heading elementen worden gebruikt om de content te introduceren.
+  21. Per pagina is er maar 1 H! element aanwezig.
+  22. Heading elementen zijn op een logische volgorde gebruikt.
+
+  <img src="readme-images/sc42.jpg" alt="De HTML van de website maakt gebruik voor headings bij alle elementen, op een logische volgorde"> 
+  
+  23. Alle sections bevatten een heading.
+  24. ul's en ol's zijn gebruikt voor list items.
+
+  <img src="readme-images/sc43.jpg" alt="ul's/ol's worden gebruikt voor list items in de HTML van de website"> 
+
+  25. Alle afbeeldingen zijn voorzien van een alt attribuut.
+  26. Decoratieve afbeeldingen worden voorzien van een lege alt attribuut.
+      
+  <img src="readme-images/sc44.jpg" alt="Decoratieve afbeeldingen in de HTML van de website zijn voorzien van een lege alt attribuut"> 
+
+  27. De website heeft geen media die automatisch afspeelt.
+  28. De HTML van de website gebruikt a tags voor link elementen.
+  29. Meeste links hebben geen unieke stijling maar is wel te onderscheiden van andere elementen.
+  30. Control elementen hebben allemaal een focus state.
+  31. Button elementen worden gebruikt voor knoppen.
+  32. De website heeft geen skip link functie.
+      
 </details>
 
 
