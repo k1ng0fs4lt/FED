@@ -290,6 +290,44 @@ De pagina's worden met een breedte van 390px nagemaakt.
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  1. Na het opstarten van de screenreader leest het correct eerst de pop-up venster af van de koptekst naar de paragraaf.
+          
+  <img src="readme-images/sc32.jpg" alt="De screenreader leest correct eerst de pop-up venster af">
+  
+  3. De wesbite ondersteunt zowel dark als lightmode.
+     
+  <img src="readme-images/sc33.jpg" alt="De website wordt nu weergeven in light mode (standaard)">
+  <img src="readme-images/sc34.jpg" alt="De website wordt nu weergeven in dark mode"> 
+
+  3. De website ondersteunt op dit moment geen hoge contrast modus, wel is er een toggle switch rechtsonder het scherm aanwezig om het aan te zetten maar dit werkt niet.
+
+  <img src="readme-images/sc35.jpg" alt="De switch contrast knop is geswitched maar er gebeurt niks"> 
+
+  4. De website ondersteund geen aanpassing van lettergroottes.
+  5. De website heeft alleen kleur die betekenis aan informatie weergeeft, dus geen andere lettertype, stijling etc.
+
+  <img src="readme-images/sc36.jpg" alt="De website heeft alleen kleur voor diverse informatie"> 
+
+  6. De navigatie iconen hebben een wiebelende animatie die wel opmerkelijk is, maar het stoort niet echt.
+
+  <img src="readme-images/sc37.jpg" alt="De naviagtie iconen hebben een animatie die opmerklijk maar niet storend is"> 
+
+  7. De website heeft geen mechanisme om video's te pauzeren omdat er geen video's worden gebruikt.
+  8. De website ondersteund de prefers-reduced-motion voorkeur, alle animaties spelen niet meer af na het aanzetten.
+  9. De website gebruikt in het algemeen normale taal die te begrijpen is, maar op sommige gebieden worden figures of speech wel gebruikt.
+  10. Bijna alle knoppen in de website zijn hetzelfde en niet uniek, sommige formulieren hebben ook geen labels.
+  11. De HTML van de website is gecheckt door de W3 validator en is valid.
+  12. De HTML van de website heeft een language attribuut voorzien.
+
+  <img src="readme-images/sc38.jpg" alt="De HTML heeft een language attribuut"> 
+
+  13. Beide pagina's hebben een unieke titel.
+  14. De viewport zoom in de HTML is niet ingezoomd en staat op een schaal van 1.
+  15. De website is te navigeren met de toetsenbord. Elementen zijn duidelijk gehighlight met een focus style en het gaat de juiste volgorde af van de visuele layout.
+
+  <img src="readme-images/sc39.jpg" alt="Een element wordt gehighlight met een focus stijl door het navigeren met de toetsenbord"> 
+  
+
 </details>
 
 
