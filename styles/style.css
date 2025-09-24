@@ -1169,7 +1169,7 @@ main > button:last-of-type{
   flex-direction: column;
   margin-left: 2.5em;
   margin-right: 2.5em;
-  margin-bottom: 10em;
+  margin-bottom: 4em;
 }
 
 #relatedProducts ul{
@@ -1273,6 +1273,7 @@ footer ul{
 
 footer ul li{
   list-style: none;
+  margin-bottom: 1em;
 }
 
 footer ul li a:focus{
@@ -1581,7 +1582,6 @@ footer ul:last-of-type{
   footer form input[type="submit"] {
     margin-top: 10px;
     width: 8em;
-    margin-left: 1em;
     cursor: pointer;
   }
 
