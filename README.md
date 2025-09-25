@@ -370,7 +370,7 @@ De pagina's worden met een breedte van 390px nagemaakt.
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Mijn dubbele drop-down werkt niet op mobiele formaat, en de pop-up venster rekt ietsjes meer uit wanneer het scherm groter wordt. Mijn contrast modus werkt niet.
 
 
   ### Agenda voor meeting
@@ -386,9 +386,9 @@ De pagina's worden met een breedte van 390px nagemaakt.
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - 
+  - 
+  - 
   - ...
 
 </details>
