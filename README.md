@@ -384,11 +384,10 @@ De pagina's worden met een breedte van 390px nagemaakt.
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - 
-  - 
-  - 
+  - De contrast functie is nogal een ingewikkelde probleem
+  - Voor de dubbele dropdown is het misschien handiger als ik ze in een summary tag neerzet en dan met media queries het aanpassen zodat je niet hoeft te klikken om de submenu te laten verschijnen op grote formaat.Voor       kleine formaat met javascript dit aanroepen. 
+  - Voor de styling komt het vaak voor dat het document best wel veel en onoverzichtelijk wordt. Het opdelen in grote secties en alle media queries onderaan neerzetten zal mij een eindje helpen.
   - ...
 
 </details>
