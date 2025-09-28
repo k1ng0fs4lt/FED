@@ -22,11 +22,12 @@
 @import url('https://fonts.cdnfonts.com/css/slate');
 
 
-/*********************/
-/*********************/
+/***********************************/
+/***********************************/
 /* Pop-up venster */
-/*********************/
-/*********************/
+/* https://chatgpt.com/ */
+/***********************************/
+/***********************************/
 dialog {
   display: grid;
   position: fixed; /* ✅ Use fixed to center on screen */
@@ -138,11 +139,11 @@ dialog h3{
 
 
 
-/*********************/
-/*********************/
+/**************************************/
+/**************************************/
 /* General styling */
-/*********************/
-/*********************/
+/**************************************/
+/**************************************/
 body {
   font-family: var(--font);
   margin: 0;
@@ -167,7 +168,6 @@ body {
 }
 
 .contrast {
-  background-color: black;
   color: yellow;
 }
 
@@ -222,11 +222,12 @@ input:focus-visible{
 
 
 
-/*********************/
-/*********************/
+/***************************************/
+/***************************************/
 /* Header */
-/*********************/
-/*********************/
+/* https://codepen.io/shooft/pen/myepoVo  Navigatie opdracht*/
+/***************************************/
+/***************************************/
 header {
   display: flex;
   justify-content: space-between;
@@ -341,6 +342,7 @@ img#navLogo{
     display: block;
 }
 
+/* https://chatgpt.com/ */
 .navIcon{
   transform-origin: 50% 50%; 
   animation: wobble 1s ease-in-out infinite;
@@ -367,7 +369,8 @@ img#navLogo{
   }
 }
 
-/* Hide submenu by default */
+
+/* https://chatgpt.com/ */
 .sub-menu {
   display: none;
   position: absolute;
@@ -385,13 +388,11 @@ img#navLogo{
   display: block;
 }
 
-/* Show submenu on hover */
 .dropdown:hover .sub-menu {
   display: block;
 
 }
 
-/* Style submenu items */
 .sub-menu li {
  margin: 0;
 }
@@ -405,6 +406,12 @@ img#navLogo{
 .sub-menu li a:hover {
   background-color: #eee;
 }
+
+
+
+
+
+
 
 
 /************************************/
@@ -544,6 +551,7 @@ main > p:nth-of-type(2){
 /************************************/
 /************************************/
 /* Banners */
+/* https://chatgpt.com/ */
 /************************************/
 /************************************/
 section.banner {
@@ -646,14 +654,17 @@ section:nth-of-type(9) > h2{
 }
 
 
-/***********/
+/**********************************/
+/**********************************/
 /* Promotions tab */
-/***********/  
+/* https://chatgpt.com/ */
+/**********************************/
+/**********************************/  
 #promotions {
-display: grid; 
-grid-template-columns: 1fr;
-gap: 20px; 
-padding: 20px;
+  display: grid; 
+  grid-template-columns: 1fr;
+  gap: 20px; 
+  padding: 20px;
 }
 
 #promotions .productCard {
@@ -680,9 +691,12 @@ padding: 20px;
 }
 
 
-/***********/
+/**********************************/
+/**********************************/
 /* Products tab */
-/***********/  
+/* https://chatgpt.com/ */
+/**********************************/
+/**********************************/
 .products {
   padding: 20px;
 }
