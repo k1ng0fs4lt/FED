@@ -446,8 +446,9 @@ De pagina's worden met een breedte van 390px nagemaakt.
   14. Promoties - https://chatgpt.com/ - Prompt na het plakken van mijn snippet: Make this promotion section to have 1 column for the productcards and for medium and large screens 2 columns using grid (Wordt voor meerdere secties herbruikt)
   15. Producten - https://chatgpt.com/ Prompt na het plakken van mijn snippet: Make the li's of this ul spread out on 2 columns on a small screen and on medium and large screens 4 columns using grid (Wordt voor meerdere secties herbruikt)
   16. Positioneren van de button op de pop-up melding - https://chatgpt.com/ Prompt met de code snippets: I have a dialog box here, so i want the button to be on the right corner of the dialog
-  17. De pop-up laten komen 5 seconde nadat de pagina is geladen -  https://chatgpt.com/ Prompt: how do i put in javascript to show this dialog with a window onload fucntion after 5 seconds?
-  18. De svg iconen laten wiebelen - https://chatgpt.com/ Prompt: how can i animate my svg icons to wobble?
-  19. De dropdown in een dropdown - https://chatgpt.com/ Prompt: how can i make another dropdown inside one of the nav list items that automatically opens when you hover over it?
+  17. De pop-up laten komen 5 seconde nadat de pagina is geladen -  https://chatgpt.com/ Prompt na het plakken van mijn snippet: How do i put in javascript to show this dialog with a window onload fucntion after 5 seconds?
+  18. De svg iconen laten wiebelen - https://chatgpt.com/ Prompt: How can i animate my svg icons to wobble?
+  19. De dropdown in een dropdown - https://chatgpt.com/ Prompt: How can i make another dropdown inside one of the nav list items that automatically opens when you hover over it?
+  20. De switch contrast goed laten werken voor alle tekst tags - https://chatgpt.com/ Prompt na het plakken van mijn snippet: Can you check if my javascript is written correctly? i made a function that adds and removes classes to the body tag when the user switches the contrast. but i also want to do that for the h1, h2, h3 and p's of the code but it doesnt work
 
 </details>
