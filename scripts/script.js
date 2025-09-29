@@ -55,23 +55,35 @@ function switchContrast() {
   if (!toggle) return; 
 
 
-  const headingsAndParagraphs = document.querySelectorAll("h1, h2, h3, p, a");
+  const headingsAndParagraphs = document.querySelectorAll("h1, h2, h3, p, a, section.bannerKlikbaar a");
+  const buttonColors = document.querySelectorAll("section.bannerKlikbaar a");
 
 
   const contrastEnabled = localStorage.getItem("contrast") === "on";
   toggle.checked = contrastEnabled;
 
   document.body.classList.toggle("contrast", contrastEnabled);
+
   headingsAndParagraphs.forEach(el => {
+    el.classList.toggle("contrast", contrastEnabled);
+  });
+
+  buttonColors.forEach(el => {
     el.classList.toggle("contrast", contrastEnabled);
   });
 
   toggle.addEventListener("change", () => {
     const enabled = toggle.checked;
     document.body.classList.toggle("contrast", enabled);
+
     headingsAndParagraphs.forEach(el => {
       el.classList.toggle("contrast", enabled);
     });
+
+    buttonColors.forEach(el => {
+      el.classList.toggle("contrast", enabled);
+    });
+
     localStorage.setItem("contrast", enabled ? "on" : "off");
   });
 }
