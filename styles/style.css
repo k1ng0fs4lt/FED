@@ -379,7 +379,7 @@ img#navLogo{
 .sub-menu {
   display: none;
   position: absolute;
-  top: 50%; 
+  top: 30; 
   left: 10;
   background: white;
   border: 1px solid #ccc;
@@ -1506,6 +1506,10 @@ footer ul:last-of-type{
 
   img#navLogo{
     height: 20px;
+  }
+
+  .sub-menu{
+    top: 50%;
   }
   
   nav {
