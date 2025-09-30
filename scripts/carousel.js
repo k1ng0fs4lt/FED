@@ -1,5 +1,8 @@
   
   
+////////////////////////////////////////////////////////////////////////
+/////////// Carousel voor detailpagina /////////////////////////////////
+////////////////////////////////////////////////////////////////////////
   const photo1 = document.querySelector('#productThumbnails ol li:first-of-type');
   const photo2 = document.querySelector('#productThumbnails ol li:nth-of-type(2)');
   const photo3 = document.querySelector('#productThumbnails ol li:nth-of-type(3)');

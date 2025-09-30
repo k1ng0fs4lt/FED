@@ -1,10 +1,10 @@
 
-
+///////////////////////////////////////////////////////
+////////////// Navigatie Hamburgermenu ////////////////
+///////////////////////////////////////////////////////
 const openBtn = document.querySelector(".open-menu");  
 const closeBtn = document.querySelector(".close-menu"); 
 const navBar = document.querySelector("nav");  
-
-
 
 openBtn.onclick = openMenu;
 closeBtn.onclick = closeMenu;
@@ -17,7 +17,15 @@ function closeMenu() {
   navBar.classList.remove("toonMenu");  
 }
 
-//https://chatgpt.com/
+
+
+
+
+
+///////////////////////////////////////////////////////
+//////////////// https://chatgpt.com/ /////////////////
+//////////////// Pop-up Venster ///////////////////////
+///////////////////////////////////////////////////////
 window.addEventListener('load', function () {
   setTimeout(function () {
     const dialog = document.querySelector('dialog');
@@ -30,24 +38,28 @@ window.addEventListener('load', function () {
   }, 2000); 
 });
 
-  document.addEventListener('DOMContentLoaded', function () {
-    const closeBtn = document.querySelector('.close-dialog');
-    const dialog = document.querySelector('dialog');
+document.addEventListener('DOMContentLoaded', function () {
+  const closeBtn = document.querySelector('.close-dialog');
+  const dialog = document.querySelector('dialog');
 
-    if (closeBtn && dialog) {
-      closeBtn.addEventListener('click', function () {
-        dialog.classList.remove('show');           
-        setTimeout(() => {
-          dialog.setAttribute('hidden', '');       
-        }, 600); 
-      });
-    }
-  });
-  
+  if (closeBtn && dialog) {
+    closeBtn.addEventListener('click', function () {
+      dialog.classList.remove('show');           
+      setTimeout(() => {
+        dialog.setAttribute('hidden', '');       
+      }, 600); 
+    });
+  }
+});
 
 
-//Studenten assistent: Alyaman Alhijazi
-//https://chatgpt.com/
+
+
+///////////////////////////////////////////////////////
+///////////// Studenten assistent: Alyaman Alhijazi ///
+///////////// https://chatgpt.com/ ////////////////////
+///////////// Contrast Modus knop /////////////////////
+///////////////////////////////////////////////////////
 document.addEventListener("DOMContentLoaded", switchContrast);
 
 function switchContrast() {
