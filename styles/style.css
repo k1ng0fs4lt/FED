@@ -813,6 +813,7 @@ section:nth-of-type(9) > h2{
 
 .reviews{
   display: flex;
+  justify-content: center;
   align-items: flex-start;
 }
 
